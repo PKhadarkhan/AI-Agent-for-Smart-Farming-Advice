@@ -108,6 +108,29 @@
         </div>
 
         <div id="weatherResult" class="result-area"></div>
+
+        <!-- In-tab Weather Chatbot -->
+        <div class="in-tab-chat-section">
+          <hr class="section-divider" />
+          <h3 data-i18n="weather_chat_title">💬 Ask Weather AI Bot</h3>
+          <p class="subtitle" data-i18n="weather_chat_subtitle">Ask questions about rainfall, weather forecasts, or climate impact on your crops.</p>
+          <div class="chat-input-area">
+            <textarea
+              id="weatherChatInput"
+              data-i18n-placeholder="weather_chat_placeholder"
+              placeholder="Ask Weather AI Bot e.g. How to protect cotton from rain?"
+              rows="2"
+              maxlength="1500"
+              onkeydown="handleInTabKeydown(event, 'weather')"
+            ></textarea>
+            <div class="chat-controls">
+              <button class="btn btn-primary" onclick="sendInTabChat('weather')">
+                <span data-i18n="btn_send">Send</span>
+              </button>
+            </div>
+          </div>
+          <div id="weatherChatHistory" class="chat-window sub-chat-window"></div>
+        </div>
       </div>
     </section>
 
@@ -169,6 +192,29 @@
         </div>
 
         <div id="marketResult" class="result-area"></div>
+
+        <!-- In-tab Market Prices Chatbot -->
+        <div class="in-tab-chat-section">
+          <hr class="section-divider" />
+          <h3 data-i18n="market_chat_title">💬 Ask Market & Price AI Bot</h3>
+          <p class="subtitle" data-i18n="market_chat_subtitle">Ask questions about crop price trends, best selling mandis, or government MSP rates.</p>
+          <div class="chat-input-area">
+            <textarea
+              id="marketChatInput"
+              data-i18n-placeholder="market_chat_placeholder"
+              placeholder="Ask Market AI Bot e.g. When is the best time to sell tomato in Guntur?"
+              rows="2"
+              maxlength="1500"
+              onkeydown="handleInTabKeydown(event, 'market')"
+            ></textarea>
+            <div class="chat-controls">
+              <button class="btn btn-primary" onclick="sendInTabChat('market')">
+                <span data-i18n="btn_send">Send</span>
+              </button>
+            </div>
+          </div>
+          <div id="marketChatHistory" class="chat-window sub-chat-window"></div>
+        </div>
       </div>
     </section>
 
@@ -225,6 +271,29 @@
         </button>
 
         <div id="cropResult" class="result-area"></div>
+
+        <!-- In-tab Crop Advice Chatbot -->
+        <div class="in-tab-chat-section">
+          <hr class="section-divider" />
+          <h3 data-i18n="crop_chat_title">💬 Ask Crop Advice AI Bot</h3>
+          <p class="subtitle" data-i18n="crop_chat_subtitle">Ask questions about crop suitability, soil health, fertilizer dosage, or yield improvement.</p>
+          <div class="chat-input-area">
+            <textarea
+              id="cropChatInput"
+              data-i18n-placeholder="crop_chat_placeholder"
+              placeholder="Ask Crop AI Bot e.g. Which pulse crop is best after rice harvest?"
+              rows="2"
+              maxlength="1500"
+              onkeydown="handleInTabKeydown(event, 'crop')"
+            ></textarea>
+            <div class="chat-controls">
+              <button class="btn btn-primary" onclick="sendInTabChat('crop')">
+                <span data-i18n="btn_send">Send</span>
+              </button>
+            </div>
+          </div>
+          <div id="cropChatHistory" class="chat-window sub-chat-window"></div>
+        </div>
       </div>
     </section>
 
@@ -255,10 +324,83 @@
         </button>
 
         <div id="pestResult" class="result-area"></div>
+
+        <!-- In-tab Pest Control Chatbot -->
+        <div class="in-tab-chat-section">
+          <hr class="section-divider" />
+          <h3 data-i18n="pest_chat_title">💬 Ask Pest & Disease AI Bot</h3>
+          <p class="subtitle" data-i18n="pest_chat_subtitle">Ask questions about organic remedies, chemical sprays, disease identification, or prevention.</p>
+          <div class="chat-input-area">
+            <textarea
+              id="pestChatInput"
+              data-i18n-placeholder="pest_chat_placeholder"
+              placeholder="Ask Pest AI Bot e.g. How to control Fall Armyworm in maize organically?"
+              rows="2"
+              maxlength="1500"
+              onkeydown="handleInTabKeydown(event, 'pest')"
+            ></textarea>
+            <div class="chat-controls">
+              <button class="btn btn-primary" onclick="sendInTabChat('pest')">
+                <span data-i18n="btn_send">Send</span>
+              </button>
+            </div>
+          </div>
+          <div id="pestChatHistory" class="chat-window sub-chat-window"></div>
+        </div>
       </div>
     </section>
 
   </main>
+
+  <!-- ═══ FLOATING AI CHAT WIDGET ═════════════════════════════════════════════ -->
+  <div class="floating-chat-container">
+    <button id="floatingChatToggle" class="floating-chat-btn" onclick="toggleFloatingChat()" aria-label="Open AI Bot Chat">
+      <span class="floating-chat-icon">💬</span>
+      <span class="floating-chat-label" data-i18n="float_btn_label">AI Bot Chat</span>
+    </button>
+
+    <div id="floatingChatBox" class="floating-chat-box hidden">
+      <div class="floating-chat-header">
+        <div class="floating-title">
+          <span class="logo-icon" style="font-size:1.5rem;">🤖</span>
+          <div>
+            <strong data-i18n="float_header_title">AI Farming Assistant</strong>
+            <div class="floating-sub" data-i18n="float_header_sub">IBM Granite &amp; watsonx.ai</div>
+          </div>
+        </div>
+        <button class="floating-close-btn" onclick="toggleFloatingChat()" aria-label="Close chat">&times;</button>
+      </div>
+
+      <!-- Topic Chips -->
+      <div class="floating-topics">
+        <button onclick="setFloatingTopic('price')" class="topic-chip" data-i18n="chip_price">📊 Price & Market</button>
+        <button onclick="setFloatingTopic('weather')" class="topic-chip" data-i18n="chip_weather">⛅ Weather</button>
+        <button onclick="setFloatingTopic('pest')" class="topic-chip" data-i18n="chip_pest">🐛 Pest Control</button>
+        <button onclick="setFloatingTopic('crop')" class="topic-chip" data-i18n="chip_crop">🌱 Crop Advice</button>
+      </div>
+
+      <div id="floatingChatHistory" class="chat-window floating-chat-window">
+        <div class="chat-welcome">
+          <span class="welcome-icon">🌾</span>
+          <p data-i18n="float_welcome">Hello! Ask me about market prices, weather forecasts, pest problems, or crop advice anytime!</p>
+        </div>
+      </div>
+
+      <div class="chat-input-area floating-input-area">
+        <textarea
+          id="floatingChatInput"
+          data-i18n-placeholder="float_input_placeholder"
+          placeholder="Ask AI Bot about price, weather, pests..."
+          rows="1"
+          maxlength="1500"
+          onkeydown="handleFloatingKeydown(event)"
+        ></textarea>
+        <button class="btn btn-primary btn-sm" onclick="sendFloatingChat()">
+          <span data-i18n="btn_send">Send</span>
+        </button>
+      </div>
+    </div>
+  </div>
 
   <!-- ═══ FOOTER ════════════════════════════════════════════════════════════ -->
   <footer class="site-footer">

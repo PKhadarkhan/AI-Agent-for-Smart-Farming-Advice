@@ -170,6 +170,29 @@ const T = {
     err_server:         "Could not connect to the server. Make sure the backend is running.",
     crop_result_title:  "🌱 AI Crop Recommendation",
     pest_result_title:  "🐛 Pest & Disease Management Advice",
+
+    // In-tab and Floating Chatbot
+    weather_chat_title:       "💬 Ask Weather AI Bot",
+    weather_chat_subtitle:    "Ask questions about rainfall, weather forecasts, or climate impact on your crops.",
+    weather_chat_placeholder: "Ask Weather AI Bot e.g. How to protect cotton from rain?",
+    market_chat_title:       "💬 Ask Market & Price AI Bot",
+    market_chat_subtitle:    "Ask questions about crop price trends, best selling mandis, or government MSP rates.",
+    market_chat_placeholder: "Ask Market AI Bot e.g. When is the best time to sell tomato in Guntur?",
+    crop_chat_title:       "💬 Ask Crop Advice AI Bot",
+    crop_chat_subtitle:    "Ask questions about crop suitability, soil health, fertilizer dosage, or yield improvement.",
+    crop_chat_placeholder: "Ask Crop AI Bot e.g. Which pulse crop is best after rice harvest?",
+    pest_chat_title:       "💬 Ask Pest & Disease AI Bot",
+    pest_chat_subtitle:    "Ask questions about organic remedies, chemical sprays, disease identification, or prevention.",
+    pest_chat_placeholder: "Ask Pest AI Bot e.g. How to control Fall Armyworm in maize organically?",
+    float_btn_label:        "AI Bot Chat",
+    float_header_title:     "AI Farming Assistant",
+    float_header_sub:       "IBM Granite & watsonx.ai",
+    float_welcome:          "Hello! Ask me about market prices, weather forecasts, pest problems, or crop advice anytime!",
+    float_input_placeholder:"Ask AI Bot about price, weather, pests...",
+    chip_price:             "📊 Price & Market",
+    chip_weather:           "⛅ Weather",
+    chip_pest:              "🐛 Pest Control",
+    chip_crop:              "🌱 Crop Advice",
   },
 
   // ── Hindi ──────────────────────────────────────────────────────────────────
@@ -296,6 +319,28 @@ const T = {
     err_server:         "सर्वर से कनेक्ट नहीं हो सका। कृपया बैकएंड चल रहा है यह सुनिश्चित करें।",
     crop_result_title:  "🌱 AI फ़सल सुझाव",
     pest_result_title:  "🐛 कीट एवं रोग प्रबंधन सलाह",
+
+    weather_chat_title:       "💬 मौसम AI बॉट से पूछें",
+    weather_chat_subtitle:    "बारिश, मौसम पूर्वानुमान या फसलों पर मौसम के प्रभाव के बारे में प्रश्न पूछें।",
+    weather_chat_placeholder: "मौसम AI बॉट से पूछें जैसे बारिश से कपास को कैसे बचाएं?",
+    market_chat_title:       "💬 बाज़ार भाव AI बॉट से पूछें",
+    market_chat_subtitle:    "फसल मूल्य रुझान, सर्वोत्तम मंडी या सरकारी MSP दरों के बारे में प्रश्न पूछें।",
+    market_chat_placeholder: "बाज़ार AI बॉट से पूछें जैसे गुंटूर में टमाटर बेचने का सबसे अच्छा समय क्या है?",
+    crop_chat_title:       "💬 फसल सलाह AI बॉट से पूछें",
+    crop_chat_subtitle:    "फसल उपयुक्तता, मिट्टी के स्वास्थ्य, उर्वरक खुराक या उपज सुधार के बारे में प्रश्न पूछें।",
+    crop_chat_placeholder: "फसल AI बॉट से पूछें जैसे धान की कटाई के बाद कौन सी दाल की फसल सर्वोत्तम है?",
+    pest_chat_title:       "💬 कीट एवं रोग AI बॉट से पूछें",
+    pest_chat_subtitle:    "जैविक उपचार, रासायनिक छिड़काव, रोग पहचान या रोकथाम के बारे में प्रश्न पूछें।",
+    pest_chat_placeholder: "कीट AI बॉट से पूछें जैसे मक्के में फॉल आर्मीवर्म को जैविक रूप से कैसे नियंत्रित करें?",
+    float_btn_label:        "AI बॉट चैट",
+    float_header_title:     "AI कृषि सहायक",
+    float_header_sub:       "IBM Granite और watsonx.ai",
+    float_welcome:          "नमस्ते! मुझसे कभी भी बाज़ार भाव, मौसम पूर्वानुमान, कीट समस्याओं या फसल सलाह के बारे में पूछें!",
+    float_input_placeholder:"AI बॉट से भाव, मौसम, कीट के बारे में पूछें...",
+    chip_price:             "📊 भाव और बाज़ार",
+    chip_weather:           "⛅ मौसम",
+    chip_pest:              "🐛 कीट नियंत्रण",
+    chip_crop:              "🌱 फसल सलाह",
   },
 
   // ── Telugu ─────────────────────────────────────────────────────────────────
@@ -422,6 +467,28 @@ const T = {
     err_server:         "సర్వర్‌కు కనెక్ట్ కాలేకపోయాము. బ్యాకెండ్ నడుస్తోందని నిర్ధారించుకోండి.",
     crop_result_title:  "🌱 AI పంట సిఫారసు",
     pest_result_title:  "🐛 చీడపీడ & వ్యాధి నిర్వహణ సలహా",
+
+    weather_chat_title:       "💬 వాతావరణ AI బాట్‌ను అడగండి",
+    weather_chat_subtitle:    "వర్షపాతం, వాతావరణ అంచనాలు లేదా మీ పంటలపై వాతావరణ ప్రభావం గురించి ప్రశ్నలు అడగండి.",
+    weather_chat_placeholder: "వాతావరణ AI బాట్‌ను అడగండి ఉదా. వర్షం నుండి పత్తిని ఎలా రక్షించాలి?",
+    market_chat_title:       "💬 మార్కెట్ & ధరల AI బాట్‌ను అడగండి",
+    market_chat_subtitle:    "పంట ధరల ట్రెండ్‌లు, ఉత్తమ అమ్మకపు మండీలు లేదా ప్రభుత్వ MSP ధరల గురించి అడగండి.",
+    market_chat_placeholder: "మార్కెట్ AI బాట్‌ను అడగండి ఉదా. గుంటూరులో టమాటా అమ్మడానికి సరైన సమయం ఏది?",
+    crop_chat_title:       "💬 పంట సలహా AI బాట్‌ను అడగండి",
+    crop_chat_subtitle:    "పంట అనుకూలత, నేల ఆరోగ్యం, ఎరువు మోతాదు లేదా దిగుబడి పెంపు గురించి అడగండి.",
+    crop_chat_placeholder: "పంట AI బాట్‌ను అడగండి ఉదా. వరి కోత తర్వాత ఏ పప్పుధాన్యాల పంట మంచిది?",
+    pest_chat_title:       "💬 చీడపీడ & వ్యాధి AI బాట్‌ను అడగండి",
+    pest_chat_subtitle:    "సేంద్రీయ నివారణలు, రసాయన పిచికారీలు, వ్యాధి గుర్తింపు లేదా నివారణ గురించి అడగండి.",
+    pest_chat_placeholder: "చీడపీడ AI బాట్‌ను అడగండి ఉదా. మొక్కజొన్నలో ఫాల్ ఆర్మీవార్మ్‌ను సేంద్రీయంగా ఎలా నివారించాలి?",
+    float_btn_label:        "AI బాట్ చాట్",
+    float_header_title:     "AI వ్యవసాయ సహాయకుడు",
+    float_header_sub:       "IBM Granite & watsonx.ai",
+    float_welcome:          "నమస్కారం! మార్కెట్ ధరలు, వాతావరణ అంచనాలు, చీడపీడ సమస్యలు లేదా పంట సలహాల గురించి నన్ను ఎప్పుడైనా అడగండి!",
+    float_input_placeholder:"ధరలు, వాతావరణం, చీడపీడల గురించి AI బాట్‌ను అడగండి...",
+    chip_price:             "📊 ధరలు & మార్కెట్",
+    chip_weather:           "⛅ వాతావరణం",
+    chip_pest:              "🐛 చీడపీడ నియంత్రణ",
+    chip_crop:              "🌱 పంట సలహా",
   },
 };
 
@@ -1116,3 +1183,182 @@ function safeFormat(text) {
   });
   return s;
 }
+
+// ═══════════════════════════════════════════════════════════════════════════════
+// IN-TAB & FLOATING AI CHATBOT FUNCTIONALITY
+// ═══════════════════════════════════════════════════════════════════════════════
+
+// ── In-Tab Chat (Weather, Market, Crop, Pest) ──────────────────────────────────
+async function sendInTabChat(category) {
+  const inputId = category + "ChatInput";
+  const historyId = category + "ChatHistory";
+
+  const input = document.getElementById(inputId);
+  const history = document.getElementById(historyId);
+  if (!input || !history) return;
+
+  const question = input.value.trim();
+  if (!question) {
+    alert(tr("err_no_question"));
+    return;
+  }
+
+  const lang = getCurrentLang();
+
+  // Context-aware query enrichment
+  let fullQuestion = question;
+  if (category === "weather") {
+    const loc = (document.getElementById("weatherLocation")?.value || "").trim();
+    if (loc) fullQuestion = `[Weather context for ${loc}]: ${question}`;
+    else fullQuestion = `[Weather query]: ${question}`;
+  } else if (category === "market") {
+    const crop = (document.getElementById("marketCrop")?.value || "").trim();
+    const state = (document.getElementById("marketState")?.value || "").trim();
+    if (crop) fullQuestion = `[Market price query for ${crop}${state ? ' in ' + state : ''}]: ${question}`;
+    else fullQuestion = `[Market price query]: ${question}`;
+  } else if (category === "crop") {
+    const soil = (document.getElementById("soilType")?.value || "").trim();
+    const season = (document.getElementById("season")?.value || "").trim();
+    if (soil || season) fullQuestion = `[Crop advice query - Soil: ${soil}, Season: ${season}]: ${question}`;
+    else fullQuestion = `[Crop advice query]: ${question}`;
+  } else if (category === "pest") {
+    const crop = (document.getElementById("pestCrop")?.value || "").trim();
+    const problem = (document.getElementById("pestProblem")?.value || "").trim();
+    if (crop || problem) fullQuestion = `[Pest control query - Crop: ${crop}, Problem: ${problem}]: ${question}`;
+    else fullQuestion = `[Pest control query]: ${question}`;
+  }
+
+  // Append user message
+  appendMessage(history, "user", question);
+  input.value = "";
+
+  // Append loading indicator
+  const loadingDiv = appendLoading(history, tr("thinking_label"));
+
+  try {
+    const res = await fetch(`${API_BASE}/api/chat`, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        question: fullQuestion,
+        language: lang
+      })
+    });
+    const data = await res.json();
+    loadingDiv.remove();
+
+    if (res.ok && data.answer) {
+      appendMessage(history, "ai", data.answer);
+    } else {
+      appendMessage(history, "error", data.error || tr("err_server"));
+    }
+  } catch (err) {
+    loadingDiv.remove();
+    appendMessage(history, "error", tr("err_server"));
+  }
+
+  history.scrollTop = history.scrollHeight;
+}
+
+function handleInTabKeydown(event, category) {
+  if (event.key === "Enter" && !event.shiftKey) {
+    event.preventDefault();
+    sendInTabChat(category);
+  }
+}
+
+// ── Floating AI Chatbot Widget ───────────────────────────────────────────────
+function toggleFloatingChat() {
+  const box = document.getElementById("floatingChatBox");
+  if (!box) return;
+  box.classList.toggle("hidden");
+  if (!box.classList.contains("hidden")) {
+    document.getElementById("floatingChatInput")?.focus();
+  }
+}
+
+function setFloatingTopic(topic) {
+  const input = document.getElementById("floatingChatInput");
+  if (!input) return;
+  const lang = getCurrentLang();
+
+  const prompts = {
+    en: {
+      price: "What are the latest MSP prices and market trends for tomato and wheat?",
+      weather: "How will monsoon rainfall affect Kharif crops in South India?",
+      pest: "How to prevent Fall Armyworm pest attack in maize crop organically?",
+      crop: "Which high-yield crops are recommended for red soil in Telangana?"
+    },
+    hi: {
+      price: "टमाटर और गेहूं के नवीनतम MSP मूल्य और मंडी भाव क्या हैं?",
+      weather: "मानसून की बारिश दक्षिण भारत में खरीफ फसलों को कैसे प्रभावित करेगी?",
+      pest: "मक्के की फसल में फॉल आर्मीवर्म कीट के हमले से जैविक रूप से कैसे बचें?",
+      crop: "तेलंगाना में लाल मिट्टी के लिए कौन सी उच्च उपज वाली फसलें सुझाई गई हैं?"
+    },
+    te: {
+      price: "టమాటా మరియు గోధుమల తాజా MSP ధరలు మరియు మండి ట్రెండ్‌లు ఏమిటి?",
+      weather: "వర్షపాతం ఖరీఫ్ పంటలపై ఎలా ప్రభావం చూపుతుంది?",
+      pest: "మొక్కజొన్నలో ఫాల్ ఆర్మీవార్మ్ పురుగుల దాడిని సేంద్రీయంగా ఎలా అరికట్టాలి?",
+      crop: "తెలంగాణలో ఎర్ర నేలకు ఏ అధిక దిగుబడినిచ్చే పంటలు అనుకూలం?"
+    }
+  };
+
+  const promptList = prompts[lang] || prompts.en;
+  input.value = promptList[topic] || promptList.price;
+
+  const box = document.getElementById("floatingChatBox");
+  if (box && box.classList.contains("hidden")) {
+    box.classList.remove("hidden");
+  }
+  input.focus();
+}
+
+async function sendFloatingChat() {
+  const input = document.getElementById("floatingChatInput");
+  const history = document.getElementById("floatingChatHistory");
+  if (!input || !history) return;
+
+  const question = input.value.trim();
+  if (!question) return;
+
+  const lang = getCurrentLang();
+
+  // Append user message
+  appendMessage(history, "user", question);
+  input.value = "";
+
+  // Append loading indicator
+  const loadingDiv = appendLoading(history, tr("thinking_label"));
+
+  try {
+    const res = await fetch(`${API_BASE}/api/chat`, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        question: question,
+        language: lang
+      })
+    });
+    const data = await res.json();
+    loadingDiv.remove();
+
+    if (res.ok && data.answer) {
+      appendMessage(history, "ai", data.answer);
+    } else {
+      appendMessage(history, "error", data.error || tr("err_server"));
+    }
+  } catch (err) {
+    loadingDiv.remove();
+    appendMessage(history, "error", tr("err_server"));
+  }
+
+  history.scrollTop = history.scrollHeight;
+}
+
+function handleFloatingKeydown(event) {
+  if (event.key === "Enter" && !event.shiftKey) {
+    event.preventDefault();
+    sendFloatingChat();
+  }
+}
+
