@@ -1,0 +1,867 @@
+==============================
+CROP INFORMATION — CEREALS
+==============================
+
+RICE (Paddy / Dhaan / Vari):
+- Season: Kharif (June-November); Rabi (November-April) in southern deltas
+- Soil: Clay loam, silty clay; pH 5.5-7.0; tolerates waterlogged conditions
+- Water: High requirement 1200-2000 mm; transplanted paddy needs flooded fields
+- Temperature: 20-35°C optimal; germination best at 20-25°C
+- Fertilizer: NPK 120:60:60 kg/ha; apply urea in 3 splits (basal, tillering, panicle initiation)
+- Varieties: IR-64, Swarna Sub-1, MTU-7029, BPT-5204 (Samba Masuri), Telangana Sona, ADT-43
+- Yield: 4-6 tonnes/ha under good management
+- Diseases: Blast (Pyricularia), Brown Leaf Spot, Sheath Blight, Bacterial Leaf Blight
+- Pests: Yellow Stem Borer, Brown Plant Hopper (BPH), Gall Midge, Leaf Folder
+- Chemical control: Tricyclazole for blast; Cartap Hydrochloride for stem borer; Buprofezin for BPH
+- Biological control: Trichogramma release for stem borer; light traps for moths
+- Harvesting: When 80% of grains turn golden; threshing within 48 hours to avoid quality loss
+- Post-harvest: Dry to <14% moisture for safe storage; clean storage prevents weevil infestation
+- Water-saving: SRI (System of Rice Intensification) can reduce water by 30% while increasing yield
+
+WHEAT (Gehun / Godhuma):
+- Season: Rabi (October-March); sow by mid-November for best yield
+- Soil: Well-drained loam or clay loam; pH 6.0-7.5; avoid waterlogging
+- Temperature: 10-25°C; frost-sensitive at heading stage
+- Water: 450-650 mm; 4-6 irrigations at critical stages
+- Critical irrigation stages: Crown root initiation (21 DAS), Jointing (45 DAS), Heading, Milky grain
+- Fertilizer: NPK 120:60:40 kg/ha; apply full P+K basal; split N at sowing, tillering, jointing
+- Varieties: HD-2967, GW-322, Raj-4120, PBW-343, HD-3086 (heat-tolerant)
+- Yield: 3-5 tonnes/ha
+- Diseases: Rust (Yellow/Brown/Black) — apply Propiconazole; Loose Smut; Powdery Mildew
+- Pests: Aphids — apply Dimethoate; Armyworm
+- Harvesting: When grain moisture is 14-16%; combine harvesting preferred
+- Less water needed: Wheat needs much less water than rice; suitable for water-scarce regions
+
+MAIZE (Corn / Makka / Makai):
+- Season: Kharif (June-September); Rabi (October-February) in South India
+- Soil: Well-drained sandy loam to clay loam; pH 6.0-7.5; waterlogging kills quickly
+- Temperature: 21-30°C; sensitive to frost
+- Water: 500-750 mm; most critical at tasseling and silking stages — never stress then
+- Fertilizer: NPK 150:75:60 kg/ha; topdress with urea at knee height (30 DAS)
+- Varieties: DHM-117, NK-6240, Pioneer-3396, Bioseed-9681, SEEDTECH-2324
+- Yield: 5-8 tonnes/ha for hybrid varieties
+- Diseases: Downy Mildew (use Metalaxyl), Maydis Leaf Blight, Turcicum Blight
+- Pests: Fall Armyworm (FAW) — most serious pest; Stem Borer; Aphids
+- FAW identification: Inverted Y-mark on head capsule; frass inside whorl; ragged leaves
+- FAW management: Emamectin Benzoate 0.4 g/L or Chlorantraniliprole 0.3 mL/L; Trichogramma release
+- Harvesting: Silage at milk/dough stage; grain harvest at full maturity (30-35% moisture)
+
+SORGHUM / JOWAR (Jwari / Jonna):
+- Season: Kharif (June-September); Rabi in some areas
+- Soil: Black cotton soil, red soil; pH 6.0-8.0; drought-tolerant
+- Water: 400-600 mm; one of the most drought-tolerant cereals
+- Temperature: 26-34°C; withstands heat better than maize
+- Fertilizer: NPK 80:40:40 kg/ha
+- Varieties: CSH-16, CSH-17, M-35-1, ICSV-745
+- Yield: 2-4 tonnes/ha grain; 20-30 tonnes/ha fodder
+- Suitable for: Water-scarce regions, black soil, Kharif season
+- Pests: Stem Borer, Aphids, Shoot Fly; Midge at flowering
+- Control: Cartap for stem borer; Chlorpyrifos for shoot fly
+
+BAJRA / PEARL MILLET (Bajra / Sajja):
+- Season: Kharif (June-September)
+- Soil: Sandy loam, light soils; pH 6.5-8.0; very drought-tolerant
+- Water: 300-500 mm; suitable for arid and semi-arid regions (Rajasthan, Gujarat)
+- Temperature: 25-35°C; most heat-tolerant cereal
+- Fertilizer: NPK 80:40:40 kg/ha
+- Varieties: HHB-67 Improved, Pusa 322, GHB-538, RHB-173
+- Yield: 1.5-2.5 tonnes/ha
+- Suitable for: Dry, sandy, hot regions; least water requirement among cereals
+- Diseases: Downy Mildew (use Metalaxyl seed treatment)
+
+RAGI / FINGER MILLET (Ragi / Nachni):
+- Season: Kharif (June-September)
+- Soil: Sandy loam to clay loam; pH 5.5-7.5; acidic soils tolerated
+- Water: 500-800 mm; moderate drought tolerance
+- Fertilizer: NPK 60:30:30 kg/ha
+- Varieties: GPU-28, MR-6, HR-911, VR-708
+- Yield: 2-3 tonnes/ha
+- Nutritional value: Rich in calcium, iron, and amino acids — excellent for food security
+- Suitable for: Hilly areas, tribal regions, red/laterite soils
+
+BARLEY (Jau):
+- Season: Rabi (October-February)
+- Soil: Sandy loam to loam; pH 6.5-8.0; tolerates saline soils better than wheat
+- Water: 300-450 mm; one of the least water-intensive Rabi crops
+- Temperature: 10-20°C
+- Fertilizer: NPK 60:40:20 kg/ha
+- Suitable for: Saline-sodic lands, low-rainfall Rabi areas
+
+==============================
+CROP INFORMATION — PULSES
+==============================
+
+ARHAR / TUR / PIGEON PEA (Kandi Pappu / Toor Dal):
+- Season: Kharif (June-October); long-duration varieties till December
+- Soil: Well-drained loam to sandy loam; pH 6.5-7.5; red and black soils
+- Water: 600-1000 mm; moderate drought tolerance once established
+- Temperature: 26-30°C
+- Fertilizer: NPK 25:50:0 kg/ha; Rhizobium seed treatment (fixes atmospheric N)
+- Varieties: ICPL-87119 (Asha), BDN-711, BSMR-736, Pusa Ageti
+- Yield: 1.5-2 tonnes/ha
+- Diseases: Fusarium Wilt (use wilt-resistant varieties); Sterility Mosaic Virus
+- Pests: Helicoverpa pod borer — most serious; Leaf Webber; Pod-sucking bugs
+- Control: HaNPV for Helicoverpa; Indoxacarb; Quinalphos for pod sucking bugs
+- Intercropping: Pigeon pea + Sorghum (4:2) for drought-prone areas
+- Benefits: Fixes nitrogen, improves soil fertility; leaves are good fodder
+
+GRAM / CHICKPEA (Chana / Senaga Pappu):
+- Season: Rabi (October-November); harvested March-April
+- Soil: Medium-deep well-drained loam; pH 6.0-8.0; black and alluvial soils
+- Water: 350-500 mm; very drought-tolerant; grown on residual soil moisture
+- Temperature: 15-25°C; frost-tolerant in vegetative stage
+- Fertilizer: NPK 20:40:20 kg/ha; Rhizobium seed treatment
+- Varieties: JG-11, Vijay, Phule G-5, Vihar, H-208
+- Yield: 1-1.5 tonnes/ha dryland; 2-2.5 tonnes/ha irrigated
+- Diseases: Wilt & Root Rot (Fusarium) — use wilt-tolerant varieties
+- Pests: Helicoverpa pod borer — critical; Cutworm; Aphids
+- Control: Spray Emamectin Benzoate at pod-fill; use chickpea NPV
+
+MOONG / GREEN GRAM (Pesara Pappu / Moong Dal):
+- Season: Kharif and Zaid (short duration: 60-70 days)
+- Soil: Sandy loam; well-drained; pH 6.0-7.5
+- Water: 350-500 mm; suited for dry conditions
+- Temperature: 25-35°C
+- Yield: 0.8-1.2 tonnes/ha
+- Advantages: Short duration, fits between kharif and rabi; adds nitrogen to soil
+- Suitable for: Post-kharif or post-rabi slot; summer crop
+
+URAD / BLACK GRAM (Minumulu / Urad Dal):
+- Season: Kharif, Zaid, Rabi in some states
+- Soil: Loam to clay loam; pH 6.0-7.5
+- Water: 500-700 mm; moderate requirement
+- Fertilizer: NPK 20:40:20 kg/ha; Rhizobium seed treatment
+- Yield: 0.6-1.0 tonnes/ha
+
+MASOOR / LENTIL:
+- Season: Rabi (October-November to March)
+- Soil: Loam to clay loam; pH 6.0-8.0
+- Water: 300-450 mm; very drought-tolerant Rabi pulse
+- Temperature: 15-25°C
+- Yield: 0.8-1.2 tonnes/ha
+- Suitable for: Low-water Rabi season; can grow on residual moisture
+
+==============================
+CROP INFORMATION — OILSEEDS
+==============================
+
+GROUNDNUT / PEANUT (Verusenaga / Moongphali):
+- Season: Kharif (June-October); Rabi (November-March) in Andhra, Karnataka
+- Soil: Sandy loam, red loam; pH 6.0-7.0; well-drained essential (pods rot in waterlogged)
+- Water: 500-700 mm; moderate drought-tolerance once established
+- Temperature: 25-30°C; peg/pod development needs warm soil (>20°C)
+- Fertilizer: NPK 25:50:40 kg/ha; Gypsum 400 kg/ha applied at peg initiation
+- Varieties: TAG-24, K-6, ICGS-44, GPBD-4, Kadiri-6, JL-24
+- Yield: 2-3 tonnes/ha (pods)
+- Diseases: Early Leaf Spot (Cercospora), Late Leaf Spot, Rust, Stem Rot (Collar Rot/Sclerotinia)
+- Pests: Leaf Miner, Red Hairy Caterpillar, White Grub (soil pest), Aphids, Thrips
+- Control: Carbendazim for leaf spot; Chlorpyrifos soil drench for white grub; Trichoderma viride for collar rot
+- Suitability: Excellent for red soil areas; drought-tolerant; good cash crop
+
+SOYBEAN (Soya / Soya Chikkudu):
+- Season: Kharif only (June-September); 95-100 day duration
+- Soil: Well-drained medium black soil; pH 6.0-7.5; avoid saline/waterlogged
+- Water: 450-700 mm; sensitive to waterlogging at any stage
+- Temperature: 25-30°C; suitable for Vidarbha, Malwa, Marathwada
+- Fertilizer: NPK 30:60:40 kg/ha; Rhizobium + PSB seed treatment
+- Varieties: JS-335, NRC-7, MACS-450, Phule Kalyani, RVS-18
+- Yield: 2-2.5 tonnes/ha
+- Diseases: Bacterial Pustule, Pod & Stem Blight, Yellow Mosaic Virus (YMV)
+- Pests: Girdle Beetle, Stem Fly, Semilooper, Whitefly (YMV vector)
+- Control: Triazophos for girdle beetle; Imidacloprid seed treatment for whitefly/YMV
+
+MUSTARD (Sarson / Avalu):
+- Season: Rabi (October-November); short duration 100-110 days
+- Soil: Loam to sandy loam; pH 6.0-7.5; well-drained
+- Water: 250-400 mm; drought-tolerant; suits rainfed Rabi areas
+- Temperature: 10-25°C
+- Fertilizer: NPK 80:40:40 kg/ha
+- Varieties: Pusa Bold, Pusa Jagannath, RH-749, Kranti
+- Yield: 1.5-2 tonnes/ha
+- Pests: Aphids — most serious; Painted Bug; Sawfly
+- Control: Dimethoate or Imidacloprid for aphids
+- Suitable for: North Indian Rabi; Rajasthan, UP, Haryana; less water than wheat
+
+SUNFLOWER (Surajmukhi):
+- Season: Kharif or Rabi; day-neutral crop; can be grown year-round
+- Soil: Well-drained loam to sandy loam; pH 6.5-8.0; tolerates mild alkalinity
+- Water: 600-800 mm; drought-tolerant but critical at flowering
+- Temperature: 20-30°C
+- Fertilizer: NPK 90:60:30 kg/ha; Boron 1 kg/ha at pre-flowering
+- Yield: 1.5-2 tonnes/ha
+- Suitable for: Diverse soils and seasons; less insect pressure than soybean
+
+CASTOR (Arandi / Arandee):
+- Season: Kharif (June-August)
+- Soil: Sandy loam, deep red soil; pH 6.0-8.0; drought-tolerant
+- Water: 400-600 mm; one of the most drought-tolerant oilseeds
+- Suitable for: Rainfed dryland areas; Telangana, Gujarat, Rajasthan
+
+SESAME / TIL (Nuvvulu / Til):
+- Season: Kharif; short duration 75-90 days
+- Soil: Sandy loam, well-drained; pH 6.0-7.5
+- Water: 300-500 mm; drought-tolerant
+- Suitable for: Light soils; short season; low water requirement
+
+==============================
+CROP INFORMATION — VEGETABLES
+==============================
+
+TOMATO (Tamata / Tamatar):
+- Season: Kharif, Rabi, Zaid; year-round in protected cultivation
+- Soil: Well-drained sandy loam to clay loam; pH 6.0-7.0
+- Temperature: 18-27°C day; night temperature below 13°C causes poor fruit set
+- Water: 400-600 mm; drip irrigation preferred; avoid overhead irrigation
+- Fertilizer: NPK 150:75:75 kg/ha; Calcium Nitrate foliar spray at fruiting to prevent BER
+- Varieties: Arka Vikas, Pusa Ruby, Arka Ahuti, Swaroopa, Hybrid varieties
+- Yield: 20-30 tonnes/ha open-field; 60-80 tonnes/ha protected cultivation
+- Diseases: Early Blight (Alternaria) — apply Mancozeb; Late Blight (Phytophthora) — Metalaxyl-M; Tomato Leaf Curl Virus (TLCV); Fusarium Wilt
+- Pests: Fruit Borer (Helicoverpa armigera) — most damaging; Whitefly (TLCV vector); Leaf Miner; Spider Mites
+- Control for fruit borer: Spinosad 45 SC @ 0.3 mL/L; HaNPV; pheromone traps; hand-pick young larvae
+- Control for whitefly: Yellow sticky traps; Buprofezin; Imidacloprid; reflective silver mulch
+- Control for mites: Abamectin 1.8 EC @ 0.5 mL/L; Propargite; neem oil
+- Biological control: Trichogramma for fruit borer; Chrysoperla against whitefly/mites
+- Harvesting: At breaker to pink stage for distant markets; red-ripe for local sale
+- Storage: 10-15°C for 2-3 weeks; avoid below 10°C (chilling injury)
+
+CHILLI (Mirchi / Mirch / Karam):
+- Season: Kharif (transplant July-August); Rabi (transplant October-November)
+- Soil: Sandy loam to clay loam; pH 6.0-7.5; good drainage essential; avoid alkaline soils
+- Temperature: 20-30°C; cold stunts growth below 15°C; heat above 35°C causes flower drop
+- Fertilizer: NPK 120:60:60 kg/ha; split N in 3 doses; foliar spray of 0.5% ZnSO4
+- Varieties: LCA-305, Pusa Jwala, Guntur Sannam (G4/G5), Byadgi Kaddi, Khammam Local
+- Yield: Dry chilli 2-3 tonnes/ha; Green chilli 15-25 tonnes/ha
+- Diseases: Anthracnose/Die-back (Colletotrichum) — Hexaconazole; Phytophthora Blight — Metalaxyl; Mosaic Virus; Bacterial Leaf Spot
+- Pests: Thrips (major sucking pest); Mites; Fruit Borer; Aphids
+- Thrips management: Acephate 75 SP; Spinosad; Fipronil; avoid broad-spectrum insecticides
+- Mites management: Abamectin 1.8 EC; Propargite; 2-3 sprays at 7-day intervals
+- Harvesting: Green stage at 70-90 DAS; dry chilli 120-150 DAS
+- Storage: Dry to <8% moisture before storage; fumigation with Aluminium Phosphide in bulk storage
+
+ONION (Pyaaz / Ullipayalu):
+- Season: Kharif (June-July transplant); Rabi (Oct-Nov transplant, major crop)
+- Soil: Well-drained loam; pH 6.0-7.5; friable; avoid heavy clay
+- Temperature: 13-24°C for bulb development; 25-35°C for germination
+- Water: 350-550 mm; drip preferred; critical at bulbing stage; reduce water before harvest
+- Fertilizer: NPK 100:50:50 kg/ha; split N over 3 doses
+- Varieties: Nasik Red, N-2-4-1, Bhima Raj, Bhima Shakti, Agrifound Dark Red
+- Yield: 20-25 tonnes/ha Rabi; 15-20 tonnes/ha Kharif
+- Diseases: Purple Blotch (Alternaria porri) — Iprodione; Stemphylium Blight; Downy Mildew
+- Pests: Thrips — main pest; causes silvery streaks; Onion Fly; Leaf Miner
+- Thrips management: Spinosad; Emamectin Benzoate; reflective mulch; intercrop with carrot
+- Harvesting: When 50-75% of tops fall over; lift and cure 10-15 days in shade
+- Storage: Cool dry well-ventilated shed; temperature 25-35°C; reduce humidity
+
+POTATO (Aloo / Alugadda):
+- Season: Rabi (October-December transplant) in plains; April-June hills
+- Soil: Sandy loam, well-drained loam; pH 5.5-7.0; friable for tuber development
+- Temperature: 15-20°C optimal for tuberisation; stops if >30°C
+- Water: 400-600 mm; critical at stolon initiation and tuber enlargement
+- Fertilizer: NPK 200:100:200 kg/ha; high potassium essential
+- Varieties: Kufri Jyoti, Kufri Pukhraj, Kufri Sindhuri, Kufri Bahar
+- Yield: 20-25 tonnes/ha
+- Diseases: Late Blight (Phytophthora) — most serious; apply Mancozeb preventively; Early Blight; Common Scab
+- Pests: Aphids (virus vectors); Potato Tuber Moth in storage
+- Storage: Cool dark conditions 4-10°C; sprout inhibition with CIPC
+- Suitable for: Punjab, UP, Bihar, MP hills; cool season
+
+BRINJAL / EGGPLANT (Vankai / Baingan):
+- Season: Kharif, Rabi; year-round planting possible
+- Soil: Sandy loam to clay loam; pH 5.5-7.0; wide adaptability
+- Temperature: 21-30°C
+- Water: 500-700 mm; moderate requirement
+- Fertilizer: NPK 100:50:50 kg/ha
+- Diseases: Phomopsis Blight; Little Leaf (mycoplasma) — no cure, rogue out
+- Pests: Brinjal Shoot & Fruit Borer (BSFB) — most serious; Leaf-Roller; Flea Beetle
+- BSFB management: Spinosad; Emamectin Benzoate; Bt spray; destroy infested shoots
+
+CUCUMBER (Kheera / Dosakaya):
+- Season: Zaid (Feb-April); Kharif
+- Soil: Sandy loam; pH 6.0-7.5
+- Water: 400-600 mm; drip preferred; needs regular moisture
+- Temperature: 25-35°C; frost-sensitive
+- Fertilizer: NPK 100:60:80 kg/ha
+- Suitable for: Summer season; low-water requirement relative to other cucurbits; fits Zaid slot
+
+WATERMELON (Tarbuz):
+- Season: Zaid (February-May)
+- Soil: Sandy loam, well-drained; pH 6.0-7.0
+- Water: 400-600 mm; drip or furrow irrigation; less water than other vegetables
+- Temperature: 25-35°C; needs heat for sugar development
+- Suitable for: Sandy soil, summer season, less water regions
+- Yield: 25-40 tonnes/ha
+
+==============================
+CROP INFORMATION — CASH CROPS
+==============================
+
+COTTON (Kapas / Patti):
+- Season: Kharif (May planting to December harvest); 180-200 day crop
+- Soil: Deep black cotton soil (Vertisol) ideal; red loam also suitable; pH 7.0-8.5
+- Temperature: 25-35°C; sensitive to frost and waterlogging
+- Water: 700-1200 mm; critical at squaring, flowering, boll formation
+- Fertilizer: NPK 120:60:60 kg/ha; foliar Boron 0.1% at flowering; avoid excess N (vegetative growth)
+- Varieties: Bt Cotton hybrid (most popular); DCH-32; NHH-44
+- Yield: Seed cotton 2-3 tonnes/ha; lint ~35% of seed cotton weight
+- Diseases: Fusarium Wilt (soil-borne; use resistant Bt hybrids); Bacterial Blight; Alternaria Leaf Spot
+- Pests: Bollworm complex (Pink, American, Spotted) — Bt cotton controls; Whitefly; Thrips; Jassids; Aphids; Pink Bollworm (resurgence)
+- Whitefly management: Yellow sticky traps; Buprofezin 25 WP; Diafenthiuron; Spiromesifen
+- Thrips management: Spinosad; Fipronil 5 SC; neem-based sprays
+- Pink bollworm management: Pheromone traps for monitoring; Chlorantraniliprole; destroy crop residue
+- Harvesting: 3-4 pickings; first at 170-180 DAS; avoid picking in high humidity (staining)
+- Suitable for: Black soil regions — Maharashtra, Telangana, AP, Gujarat, MP
+
+SUGARCANE (Cheruku / Ganna):
+- Season: Plant cane February-March; ratoon annually; 12-18 month duration
+- Soil: Deep loam, clay loam; pH 6.5-7.5; good drainage essential
+- Temperature: 20-35°C; frost kills cane
+- Water: High 1500-2500 mm; drip irrigation improves WUE by 30%
+- Fertilizer: NPK 250:100:120 kg/ha split over the season; apply FYM 20 t/ha
+- Varieties: Co-86032, Co-0238, CoJ-64, CoA-7602, Co-94012
+- Yield: 70-100 tonnes/ha; sugar recovery 10-12%
+- Diseases: Red Rot (Colletotrichum) — most serious; Smut; Grassy Shoot (phytoplasma); Wilt
+- Pests: Stem Borer; Pyrilla (Sugarcane leafhopper); Whitefly; Scale Insect; Root Borer
+- Control: Release Trichogramma for stem borer; Dimethoate for Pyrilla; soil drench for root borer
+- Suitable for: Fertile deep soils; UP, Maharashtra, AP, Karnataka, TN; needs abundant water or irrigation
+
+TURMERIC (Pasupu / Haldi):
+- Season: May-June planting; harvested after 8-9 months (January-March)
+- Soil: Loamy, well-drained; pH 6.0-7.5; cannot tolerate waterlogging
+- Temperature: 20-30°C; high humidity favours rhizome growth
+- Water: 1500 mm well-distributed; mulching (paddy straw) essential
+- Fertilizer: NPK 60:50:120 kg/ha; high potassium for rhizome development; FYM 40 t/ha
+- Varieties: Duggirala, Tekurpet, Erode Local, Alleppey Finger, Rajapuri, Sughandham
+- Yield: Fresh rhizome 25-30 tonnes/ha; dry 5-6 tonnes/ha
+- Diseases: Leaf Blotch (Colletotrichum) — Mancozeb; Rhizome Rot (Pythium) — Metalaxyl drench
+- Pests: Rhizome Scale (Aspidiella hartii); Shoot Borer (Conogethes punctiferalis); Leaf Roller
+- Shoot borer management: Chlorpyrifos 2.5 mL/L soil drench; remove and destroy infested shoots
+- Rhizome scale: Dip rhizomes in Chlorpyrifos solution before planting
+- Important markets: Nizamabad (AP/Telangana); Erode (TN); Sangli (Maharashtra)
+
+JUTE:
+- Season: Kharif (March-June); harvested August-September
+- Soil: Alluvial; pH 6.0-7.5; needs good moisture
+- Water: 1000-1500 mm; suited to Bengal, Bihar, Assam flood plains
+
+==============================
+SOIL TYPES AND CROP SUITABILITY
+==============================
+
+BLACK COTTON SOIL (Vertisol / Regur Soil):
+- Regions: Maharashtra (Vidarbha, Marathwada), Telangana, AP, MP, Gujarat
+- pH: 7.0-8.5; self-mulching (swells when wet, cracks when dry)
+- Properties: High clay content (montmorillonite); rich in Ca, Mg; low in N, P, organic matter
+- Best crops: Cotton (most suitable), Wheat, Jowar/Sorghum, Sunflower, Soybean, Chickpea
+- Good crops: Maize, Bajra, Linseed, Safflower
+- Poor crops: Rice (waterlogging risk from swelling), Root vegetables
+- Management:
+  * Deep ploughing once every 3 years to break hard pan
+  * Raised beds (BBF — Broad Bed Furrow) for drainage during Kharif
+  * Apply Gypsum 2.5 t/ha to improve structure of alkaline vertisols
+  * Add organic matter (FYM) to improve aeration and nutrient availability
+
+RED SOIL (Laterite / Alfisol):
+- Regions: AP, Telangana, Karnataka, Tamil Nadu, Odisha
+- pH: 5.5-7.0; reddish due to iron oxide; low in N, P, organic matter
+- Properties: Light, porous, well-drained; low water retention; leaches nutrients quickly
+- Best crops: Groundnut (most suitable), Sorghum, Millets, Pulses (arhar, moong, gram)
+- Good crops: Cotton, Maize, Castor, Sesame, Cowpea
+- Poor crops: Rice (needs more water retention), Wheat (needs heavier soil)
+- Management:
+  * Add lime if pH < 5.5 (neutralise acidity)
+  * Heavy FYM application (15-20 t/ha) to improve water and nutrient retention
+  * Mulching to reduce evaporation
+  * Frequent light irrigation due to low water retention
+
+ALLUVIAL SOIL (Inceptisol / Entisol):
+- Regions: Indo-Gangetic plains (UP, Punjab, Haryana, Bihar), river deltas (Bengal, Andhra)
+- pH: 6.5-8.0; very fertile; good water retention; periodic replenishment by floods
+- Properties: Loamy to silty loam; contains balanced N, P, K; best agricultural soils
+- Best crops: Rice, Wheat, Sugarcane, Vegetables (all types), Banana, Jute, Maize
+- Management: Regular NPK to replace nutrients removed by intensive cropping; avoid compaction
+
+SANDY LOAM SOIL:
+- pH: 6.0-7.0; good aeration and drainage; low water retention
+- Best crops: Groundnut, Ginger, Watermelon, Cucumber, Pulses, Tobacco
+- Poor crops: Rice, Sugarcane (need more water retention)
+- Management: Organic matter; mulching; drip irrigation; frequent but light irrigation
+
+CLAY SOIL:
+- pH: 6.0-7.5; very high water retention; poor drainage; slow to warm
+- Best crops: Rice (waterlogging-tolerant), Wheat, Sugarcane
+- Poor crops: Groundnut, Root crops (difficult harvesting)
+- Management: Raised beds for drainage; add sand/organic matter; avoid machinery when wet
+
+LOAMY SOIL (best general purpose):
+- pH: 6.0-7.0; balanced texture; excellent for most crops
+- Best crops: Nearly all crops — wheat, maize, cotton, vegetables, pulses, oilseeds
+- Management: Maintain organic matter; rotate crops; balanced fertilization
+
+SALINE-SODIC SOILS:
+- EC > 4 dS/m (saline); SAR > 13 (sodic/alkali)
+- Reclamation of saline soils: Leach with good water; grow salt-tolerant crops
+- Reclamation of sodic soils: Apply Gypsum 5-10 t/ha; sub-surface drainage
+- Salt-tolerant crops: Barley (best), Rice, Cotton, Sugarbeet, Dhaincha (green manure)
+- Avoid: Groundnut, Soybean, Beans in saline soils
+
+==============================
+SEASONAL CALENDAR — INDIA
+==============================
+
+KHARIF SEASON (Rainy Season):
+- Onset: June (with monsoon); sowing June-July
+- Harvest: September-November
+- Duration: 90-180 days depending on crop
+- Key crops: Rice, Maize, Cotton, Soybean, Groundnut, Sorghum (Jowar), Bajra, Arhar/Tur, Urad, Moong, Sesame
+- Characteristics: Depends on monsoon rainfall; high pest pressure due to humidity; waterlogging risk
+- Pre-season activities: Field preparation by May; bund repair; drainage channels; buy seeds by May
+- Suitable soils: Black, red, alluvial — all types depending on crop
+
+RABI SEASON (Winter Season):
+- Onset: October-November; sowing October-November
+- Harvest: March-April
+- Duration: 90-150 days
+- Key crops: Wheat (main crop), Barley, Mustard, Gram/Chickpea, Masoor/Lentil, Peas, Sunflower
+- Characteristics: Cool temperatures; relies on stored soil moisture + irrigation; lower pest pressure than Kharif
+- Suitable regions: North and Central India; irrigated areas
+- Activities: Soil preparation September; sowing November; irrigation at critical stages
+
+ZAID SEASON (Summer/Short Season):
+- Onset: February-March; sowing March-April
+- Harvest: May-June
+- Duration: 60-90 days
+- Key crops: Watermelon, Muskmelon, Cucumber, Short-duration Moong, Fodder crops, Vegetables
+- Characteristics: Hot and dry; requires irrigation; short window
+- Suitable for: Farmers wanting an extra crop between Rabi harvest and Kharif sowing
+
+SEASON-BASED RECOMMENDATIONS (by current month):
+- January: Rabi crops in vegetative/reproductive stage; wheat irrigation critical; guard against frost
+- February: Wheat heading; Rabi pulse harvest begins; start summer crop land preparation
+- March: Zaid season starts; vegetables, watermelon, moong; harvest Rabi crops
+- April: Zaid crops growing; summer heat stress management; repair bunds before monsoon
+- May: Pre-kharif preparation; buy Kharif seeds; field bund repair; drainage channels
+- June: Kharif sowing starts with monsoon onset; rice transplanting; sow cotton, maize
+- July: Kharif crops growing; watch for pests; ensure drainage; apply fertilizers
+- August: Peak Kharif; high pest/disease pressure; spray fungicides if needed
+- September: Late Kharif; start Rabi land preparation after rain; harvest early Kharif crops
+- October: Kharif harvest; Rabi sowing starts; wheat, chickpea, mustard sowing
+- November: Rabi growing; wheat CRI irrigation; apply phosphorus before sowing
+- December: Rabi crops growing; cold protection; monitor aphids in mustard/wheat
+
+==============================
+INTEGRATED PEST MANAGEMENT (IPM)
+==============================
+
+PRINCIPLES OF IPM (in order of preference):
+1. PREVENTION: Use certified disease-free seed; crop rotation; resistant varieties; field sanitation
+2. CULTURAL CONTROL: Deep summer ploughing; removal of crop debris; trap crops; intercropping
+3. BIOLOGICAL CONTROL: Natural enemies, bioagents, biopesticides
+4. CHEMICAL CONTROL: Only when pest population crosses Economic Threshold Level (ETL); use selective insecticides
+
+ECONOMIC THRESHOLD LEVELS (ETL):
+- Brown Plant Hopper (BPH) in rice: 10-20 hoppers/hill
+- Fall Armyworm (FAW) in maize: 5% damage or 1 egg mass per m²
+- Helicoverpa in cotton: 1-2 eggs/plant or >5% damaged fruiting bodies
+- Aphids in wheat: 8-10 aphids/tiller at heading
+
+COMMON BIOLOGICAL CONTROLS:
+- Trichogramma chilonis (1 lakh cards/ha): egg parasitoid for stem borer, fruit borer, FAW
+- Chrysoperla carnea (predator): effective against aphids, whitefly, thrips, mites
+- Bacillus thuringiensis (Bt): caterpillar pests — HANPVfor Helicoverpa; SpNPV for FAW
+- Beauveria bassiana (fungal biopesticide): whitefly, thrips, aphids; spray in cool, humid conditions
+- Nuclear Polyhedrosis Virus (NPV): HaNPV for Helicoverpa @ 250 LE/ha; SpNPV for Spodoptera
+- Trichoderma viride/harzianum: soil-borne diseases — collar rot, wilt, root rot; mix with FYM
+
+NEEM-BASED PRODUCTS:
+- NSKE (Neem Seed Kernel Extract) 5%: broad-spectrum repellent and antifeedant; spray 3-4 times
+- Neem oil 3% EC: fungicide + insecticide; effective against sucking pests; weekly spray
+- Azadirachtin 0.15% EC: for sucking pests, leaf miners, thrips; do not mix with fungicides
+
+PEST-SPECIFIC IDENTIFICATION AND MANAGEMENT:
+
+FALL ARMYWORM (FAW — Spodoptera frugiperda):
+- Crops affected: Maize (primary), sorghum, rice, wheat
+- Identification: Inverted Y-mark on head capsule; frass in whorl; window-pane damage; pin-hole leaves
+- Chemical: Emamectin Benzoate 5 SG @ 0.4 g/L; Chlorantraniliprole 18.5 SC @ 0.3 mL/L
+- Biological: Release Trichogramma (2x); apply SpNPV; spray Bt at early instar
+- Cultural: Deep summer ploughing; early sowing; overhead irrigation to dislodge larvae
+- Safety: Spray in early morning or evening; avoid spraying during flowering
+
+BROWN PLANT HOPPER (BPH — Nilaparvata lugens):
+- Crops: Rice
+- Identification: Hopperburn — circular brown patches in field; honeydew deposits; insects at base of plant
+- Chemical: Buprofezin 25 WP @ 1 g/L; Pymetrozine 50 WG @ 0.3 g/L
+- AVOID: Monocrotophos, Methyl Parathion — cause BPH resurgence
+- Biological: Preserve natural enemies (spiders, mirid bugs); avoid broad-spectrum insecticides
+
+HELICOVERPA ARMIGERA (American Bollworm / Tomato Fruit Borer):
+- Crops: Cotton, Tomato, Chickpea, Pigeonpea
+- Identification: Circular bore hole in fruit/boll; frass outside; larva inside
+- Chemical: Emamectin Benzoate 5 SG; Indoxacarb 15.8 EC; Chlorantraniliprole
+- Biological: HaNPV @ 250 LE/ha; Bt (Bacillus thuringiensis var. kurstaki) spray
+- Cultural: Pheromone traps (1 trap/acre for monitoring); hand-pick early-stage larvae
+- Safety: Use protective gear; spray in morning; avoid drift to flowering crops
+
+WHITEFLY (Bemisia tabaci):
+- Crops: Cotton, Tomato, Chilli, Vegetables, Legumes
+- Role: Direct feeding (silvery leaves) + virus vector (TLCV in tomato, CLCuV in cotton)
+- Identification: Tiny white insects under leaves; yellowing; sooty mould
+- Chemical: Buprofezin 25 WP; Diafenthiuron 50 WP; Spiromesifen 240 SC
+- Biological: Beauveria bassiana spray; yellow sticky traps (1 per 10 m²); reflective mulch
+- Cultural: Remove volunteer plants; weed-free field border; avoid late sowing
+
+APHIDS (Machi / Maahu):
+- Crops: Wheat, Mustard, Potato, Chilli, Cotton
+- Identification: Clusters of soft-bodied insects; honeydew; ants around colonies
+- Chemical: Dimethoate 30 EC @ 1 mL/L; Imidacloprid 17.8 SL @ 0.5 mL/L
+- Biological: Chrysoperla carnea; Coccinellid beetles (ladybird — preserve); Banker plants
+
+STEM BORER (Chilo partellus and Sesamia species):
+- Crops: Maize, Sorghum, Rice, Sugarcane
+- Identification: Dead heart in vegetative stage; white ear in reproductive stage
+- Chemical: Chlorpyrifos 20 EC @ 2.5 mL/L in whorl; Cartap Hydrochloride
+- Biological: Trichogramma chilonis release @ 1 lakh/ha; Cotesia flavipes release
+
+THRIPS:
+- Crops: Chilli, Cotton, Onion, Groundnut
+- Identification: Silvery-bronze streaks on leaves; scarring; leaf curl in chilli
+- Chemical: Spinosad 45 SC @ 0.3 mL/L; Fipronil 5 SC @ 2 mL/L; Acephate 75 SP
+- Biological: Blue sticky traps; Amblyseius cucumeris (predatory mite)
+
+==============================
+DISEASE MANAGEMENT
+==============================
+
+GENERAL DISEASE PREVENTION:
+1. Use certified pathogen-free seed or treated seed
+2. Crop rotation — break disease cycle (avoid same crop family consecutively)
+3. Soil solarisation — kills soil-borne pathogens (effective in summer)
+4. Remove and destroy infected plant parts — do not compost diseased material
+5. Manage drainage — most fungal diseases need standing water
+6. Resistant varieties — best long-term strategy
+
+FUNGAL DISEASES:
+- Blast in rice: Tricyclazole 75 WP @ 0.6 g/L; Isoprothiolane 40 EC @ 1.5 mL/L
+- Rust in wheat (yellow/brown/black): Propiconazole 25 EC @ 1 mL/L; Tebuconazole
+- Downy mildew (maize, grapevine): Metalaxyl-M + Mancozeb; improve drainage
+- Late blight of potato/tomato: Mancozeb 75 WP (preventive); Metalaxyl-M + Mancozeb (curative)
+- Early blight: Chlorothalonil; Copper oxychloride
+- Anthracnose (chilli, mango, beans): Hexaconazole 5 SC; Carbendazim 50 WP
+- Wilt diseases (Fusarium, Pythium): Carbendazim soil drench; Trichoderma viride in soil
+- Powdery mildew: Sulphur 80 WP; Hexaconazole; Triadimefon
+
+BACTERIAL DISEASES:
+- Bacterial leaf blight of rice: Copper bactericide; resistant varieties (BPT-5204 moderately tolerant)
+- Bacterial leaf spot of chilli: Copper-based fungicide; avoid overhead irrigation
+
+VIRAL DISEASES:
+- Tomato Leaf Curl Virus (TLCV): No cure; control whitefly vector; rogue infected plants
+- Yellow Mosaic Virus in soybean/beans: No cure; control whitefly; use resistant varieties
+- Cotton Leaf Curl Virus (CLCuV): Remove infected plants; control whitefly; Bt cotton with resistance
+- Prevention tip: All viral diseases are insect-vectored — manage the vector insect
+
+==============================
+FERTILIZER AND SOIL NUTRITION
+==============================
+
+MACRONUTRIENTS:
+- Nitrogen (N): Promotes leaf/stem growth; apply as Urea (46% N) or DAP (18-46%)
+  * Split application: Basal (25%) + Tillering/Branching (50%) + Panicle/Flowering (25%)
+  * Excess N: lush growth, more pest attacks, lodging
+  * Deficiency: yellowing of older leaves; stunted growth
+- Phosphorus (P): Root development and flowering; apply as SSP (16% P) or DAP
+  * Apply as basal dose before sowing; relatively immobile in soil
+  * Deficiency: Purplish discolouration of leaves; poor root development
+- Potassium (K): Disease resistance, drought tolerance, quality; apply as MOP (60% K)
+  * Critical for tuber/rhizome/fruit crops — potato, sugarcane, turmeric, banana
+  * Deficiency: Brown scorching of leaf margins
+
+SECONDARY AND MICRONUTRIENTS:
+- Calcium: Cell wall strength; apply Calcium Nitrate or gypsum; prevents BER in tomato
+- Sulphur: Protein synthesis; apply Gypsum (18% S) or elemental sulphur; important for pulses
+- Zinc (Zn): Most common deficiency in Indian soils; khaira disease in rice; apply ZnSO4 25 kg/ha
+- Iron (Fe): Chlorosis in alkaline soils; apply FeSO4 0.5% foliar spray
+- Boron (B): Flower/fruit setting; critical for cotton and sunflower; apply Borax 1 kg/ha
+- Manganese (Mn): Deficiency in alkaline paddy soils; apply MnSO4 foliar spray
+
+ORGANIC NUTRITION:
+- Farmyard Manure (FYM): 10-15 t/ha; improves soil structure and water retention
+- Vermicompost: 3-5 t/ha; slow-release nutrients; excellent for vegetables
+- Green Manure crops: Dhaincha (Sesbania), Sunhemp; incorporate at flowering before main crop
+- Biofertilizers: Rhizobium (legumes N-fixation); PSB (phosphate solubilizing bacteria); Azospirillum (grass crops); Azotobacter (non-legumes)
+- Combine organic + inorganic: Integrated Plant Nutrition for best results and soil health
+
+SOIL TESTING AND FERTILIZER RECOMMENDATION:
+- Soil test every 2-3 years from KVK or agricultural office
+- Soil Health Card provides crop-specific recommendations
+- Test for: pH, EC, N, P, K, organic carbon, micronutrients (Zn, B, Fe, Mn)
+- Apply lime if pH < 6.0 (1-2 t/ha); Gypsum if pH > 8.0 or sodic
+
+==============================
+WATER MANAGEMENT AND IRRIGATION
+==============================
+
+DRIP IRRIGATION:
+- Crops: Vegetables, Fruit crops, Cotton, Sugarcane, Chilli, Banana
+- Water saving: 40-60% compared to flood irrigation
+- Benefits: Uniform moisture; fertigation (fertilizer through drip); less weed growth
+- Government subsidy: PM Krishi Sinchai Yojana; National Horticulture Mission
+
+SPRINKLER IRRIGATION:
+- Crops: Wheat, Groundnut, Pulses, Vegetables on undulating terrain
+- Water saving: 25-40%; good for light soils with fast drainage
+
+CRITICAL IRRIGATION STAGES (important to never skip):
+- Rice: Transplanting; Tillering; Panicle initiation; Grain filling
+- Wheat: Crown root initiation (21 DAS); Jointing (45 DAS); Heading; Grain filling (Milky)
+- Maize: Tasseling + Silking — most critical; 5 days of drought here reduces yield by 50%
+- Cotton: Squaring; Flowering; Boll development
+- Groundnut: Peg initiation; Pod development
+- Sugarcane: Formative period (April-July)
+
+LOW-WATER CROPS (suitable for water-scarce areas):
+- Bajra (Pearl Millet): 300-500 mm; most drought-tolerant cereal
+- Sorghum (Jowar): 400-600 mm; drought-tolerant; good for black soil
+- Ragi (Finger Millet): 500-800 mm; grows in acidic soils
+- Castor: 400-600 mm; drought-tolerant oilseed
+- Moong: 350-500 mm; short duration; low water requirement
+- Lentil (Masoor): 300-450 mm; Rabi pulse on residual moisture
+- Barley: 300-450 mm; salt-tolerant; less water than wheat
+- Chickpea (Gram): 350-500 mm; residual moisture Rabi crop
+- Sesame (Til): 300-500 mm; short duration; light soils
+- Watermelon: 400-600 mm; hot dry weather; summer season
+
+RAIN WATER HARVESTING:
+- Farm ponds (25x25x3 m): collect monsoon runoff for Rabi/Zaid irrigation
+- Contour bunds: slow runoff; improve infiltration
+- Check dams: small streams, gullies
+- Subsurface dykes: trap sub-surface flow
+
+WATER STRESS MANAGEMENT:
+- Mulching: Paddy straw mulch 5-8 t/ha; plastic mulch; reduces evaporation by 30-40%
+- Antitranspirants: Kaolin 5% foliar spray; wax-based products
+- Deep tillage: Sub-soil ploughing improves water storage capacity
+
+==============================
+CROP ROTATION AND INTERCROPPING
+==============================
+
+BENEFICIAL CROP ROTATIONS:
+- Rice → Wheat (Indo-Gangetic plains): classic; wheat benefits from rice residue N
+- Cotton → Chickpea or Soybean: breaks wilt disease cycle; adds N from legume
+- Maize → Chickpea: excellent — adds nitrogen; different root system
+- Sorghum → Safflower (Rabi): deep-rooted rotation; good in black soil
+- Groundnut → Sorghum or Bajra: prevents soil-borne disease buildup in peanut
+- Sugarcane → Soybean or Onion (in ratoon row): improves income
+
+INTERCROPPING SYSTEMS (for yield stability and income):
+- Sorghum + Pigeon Pea (4:2 row ratio): drought-tolerant; stable income; AP/Telangana
+- Maize + Black Gram: rain-fed Kharif; legume N benefit
+- Groundnut + Sunflower (1:4 rows): mixed income; groundnut benefits from sunflower shade
+- Cotton + Greengram between cotton rows: reduces weed; greengram N benefit
+- Banana + Elephant Foot Yam: shade; root crop income; South India
+- Coconut + Pepper or Cocoa (under canopy): Kerala model
+
+CROP ROTATION PRINCIPLES:
+- Alternate cereals with legumes: breaks pest/disease cycle and restores nitrogen
+- Avoid same family consecutively: e.g., do not grow tomato-potato-brinjal in same plot every year
+- Deep-rooted after shallow-rooted: improves soil structure at different depths
+
+==============================
+WEATHER-BASED FARMING GUIDANCE
+==============================
+
+MONSOON PREPARATION (May-June):
+- Repair field bunds and drainage channels before June
+- Pre-sowing irrigation if monsoon delayed beyond June 20
+- Store seeds in cool, dry airtight containers; test germination
+- Service farm equipment before season
+
+HEAT STRESS MANAGEMENT (> 35°C):
+- Irrigate in early morning (6-9 AM) or evening (5-7 PM) — not midday
+- Apply mulch (paddy straw 5-8 t/ha) to conserve moisture and reduce soil temperature
+- Foliar spray of Kaolin 5% to reduce canopy temperature by 2-3°C
+- Avoid transplanting and spraying during peak heat (11 AM-3 PM)
+- Heat-tolerant varieties: HD-3086 (wheat); heat-tolerant tomato hybrids
+
+COLD AND FROST PROTECTION (< 10°C):
+- Light irrigation before frost event — latent heat released as water freezes protects crop
+- Smoke screens in orchards: burning dry biomass on field borders
+- Use plastic/polythene mulch or row covers for vegetables and nurseries
+- Delay transplanting until daily minimum temperature is above 15°C
+- Frost-susceptible stages: wheat heading, tomato flowering, potato tuberisation
+
+DROUGHT AND LOW RAINFALL MANAGEMENT:
+- Deep tillage (sub-soil ploughing) for moisture conservation
+- Grow drought-tolerant varieties: Ragi, Bajra, Jowar, Castor, Moong, Gram
+- Construct farm ponds; use rainwater harvesting
+- Intercropping: Sorghum + Pigeon Pea system
+- Skip irrigation system: alternate furrow irrigation to save 30% water
+
+HIGH RAINFALL AND WATERLOGGING:
+- Clear drainage channels; create field drains at 3-5 m intervals
+- Use raised beds (BBF) for sensitive crops — cotton, soybean, chilli
+- Drain fields within 24 hours of waterlogging to prevent root suffocation
+- Spray Mancozeb to prevent fungal diseases after heavy rain
+
+==============================
+HARVESTING AND POST-HARVEST
+==============================
+
+OPTIMAL HARVEST INDICATORS:
+- Rice: 80% of grains golden-yellow; do not delay beyond 7-10 days of maturity
+- Wheat: Grain moisture 14-16% (straw turns golden); use combine if available
+- Cotton: Bolls fully open; first picking at 170-180 DAS; 3-4 pickings total
+- Tomato: Green to breaker stage for distant markets; red for local sale
+- Groundnut: Pods mature (inner wall blackened); harvest in morning to avoid pod shattering
+- Onion: 50-75% tops fall naturally; cure 10-15 days before storage
+
+POST-HARVEST HANDLING:
+- Dry grains to safe moisture: Rice <14%; Wheat <12%; Maize <12% before storage
+- Clean grain: Remove broken, diseased, insect-damaged grain before storage
+- Store in proper bins: Metallic silos; CAP storage; HDPE bags; avoid gunny sacks (moisture)
+- Fumigation: Aluminium Phosphide tablets in sealed storage for insect control
+- Cold storage: Potato (4-10°C); Onion (0-2°C); Tomato (10-15°C); Garlic (0°C)
+- Avoid direct ground contact: Use pallets/wooden boards to prevent moisture uptake
+
+VALUE ADDITION:
+- Rice: Milling to remove bran; parboiling improves nutrition
+- Turmeric: Boiling + drying + polishing; export quality Erode/Nizamabad grade
+- Chilli: Solar drying; grinding; oleoresin extraction
+- Groundnut: Oil expelling; peanut butter; boiled groundnut for local sale
+
+==============================
+GOVERNMENT SCHEMES AND SUPPORT
+==============================
+
+FINANCIAL SUPPORT:
+- PM-KISAN: Direct income support ₹6000/year in 3 installments; register at pmkisan.gov.in
+- Kisan Credit Card (KCC): Short-term credit at 4% interest; ₹1.60 lakh without collateral
+- PM Fasal Bima Yojana (PMFBY): Crop insurance premium 1.5-2% for Rabi, 2% for Kharif
+- Rashtriya Krishi Vikas Yojana (RKVY): Infrastructure, storage, mechanization grants
+
+TECHNOLOGY AND INPUT SUPPORT:
+- Soil Health Card: Free soil testing every 2 years from nearest KVK
+- PM Krishi Sinchai Yojana: 55% subsidy on drip/sprinkler; register at pmksy.gov.in
+- e-NAM Portal: Transparent mandi pricing across states; e-NAM.gov.in
+- Kisan Suvidha App: Weather, market prices, advisories — free mobile app
+- mKisan SMS Portal: Advisory SMS in local language
+
+EXTENSION SERVICES:
+- Krishi Vigyan Kendra (KVK): District-level agricultural advisory; free soil testing, demonstrations
+- Agricultural Technology Management Agency (ATMA): Block-level farmer training
+- State Agriculture Universities: Varieties, best practices, field demonstration
+
+MARKET ACCESS:
+- e-NAM (National Agriculture Market): Online mandi; transparent prices; 1000+ mandis
+- APMC Mandis: Local markets; contact district agriculture officer for mandi schedule
+- FPOs (Farmer Producer Organizations): Group selling for better bargaining power
+- Minimum Support Price (MSP): Government floor price for 23 crops; announced before sowing
+
+==============================
+MANDI / MARKET GUIDANCE
+==============================
+
+UNDERSTANDING MARKET PRICES:
+- Mandi/APMC price: Price at which crop is auctioned in the market; varies daily by supply/demand
+- MSP (Minimum Support Price): Government guaranteed floor price; farmer can sell to government procurement if mandi price falls below MSP
+- Farm gate price: Price farmer receives at field; usually lower than mandi price due to transport costs
+- Seasonal price variation: Prices lowest at harvest time (peak supply); highest in lean season
+
+MSP CROPS (2024-25, Government of India):
+- Rice (Paddy): ₹2300/quintal (Kharif 2024-25)
+- Wheat: ₹2275/quintal (Rabi 2024-25)
+- Maize: ₹2090/quintal (Kharif 2024-25)
+- Arhar (Tur Dal): ₹7550/quintal (Kharif 2024-25)
+- Moong: ₹8682/quintal (Kharif 2024-25)
+- Urad: ₹7400/quintal (Kharif 2024-25)
+- Groundnut: ₹6783/quintal (Kharif 2024-25)
+- Soybean: ₹4892/quintal (Kharif 2024-25)
+- Cotton: ₹7121/quintal (Kharif 2024-25)
+- Gram: ₹5440/quintal (Rabi 2024-25)
+- Mustard: ₹5950/quintal (Rabi 2024-25)
+- Sunflower: ₹7280/quintal (Kharif 2024-25)
+
+PRICE ADVICE FOR FARMERS:
+- Best time to sell: Avoid selling at harvest peak (prices lowest); store if possible
+- For perishables (vegetables, fruits): sell quickly; losses increase with delay
+- Price discovery: Check e-NAM app; Agri Bazaar; APMC official website for current rates
+- Transport: Reduce transport cost by selling to nearest mandi or forming FPO with neighbours
+- Storage bonus: Warehouse receipt system — store grain and borrow against it
+
+IMPORTANT MANDIS IN TELANGANA AND AP:
+- Warangal: Cotton, Turmeric, Maize
+- Nizamabad: Turmeric (Asia's largest turmeric market), Rice
+- Kurnool: Cotton, Chilli
+- Guntur: Chilli (Asia's largest dry chilli market), Cotton
+- Ongole: Cotton, Chilli
+- Nalgonda: Rice, Maize
+- Karimnagar: Rice, Maize, Cotton
+
+IMPORTANT MANDIS IN OTHER STATES:
+- Pune (Maharashtra): Onion, Grapes, Pomegranate
+- Nagpur (Maharashtra): Oranges
+- Erode (Tamil Nadu): Turmeric
+- Bangalore (Karnataka): Vegetables, Flowers
+- Amritsar (Punjab): Wheat, Rice
+- Hapur (UP): Grain market
+
+==============================
+COMMON FARMING PRACTICES — TELANGANA AND ANDHRA PRADESH
+==============================
+
+TELANGANA (Major Crops):
+- Kharif: Rice, Cotton, Maize, Soybean, Red Gram (Arhar), Urad, Moong, Sesame
+- Rabi: Maize, Red Gram (some), Sunflower, Chickpea
+- Cash crops: Cotton (Kharif), Chilli, Turmeric
+- Major irrigation: Godavari river canals; Srisailam/Nagarjuna Sagar tail-end
+- Irrigation issues: Bore well depletion; uneven canal distribution
+- Important markets: Warangal (Cotton, Turmeric), Nizamabad (Turmeric), Kurnool (Cotton)
+
+ANDHRA PRADESH (Major Crops):
+- Krishna/Godavari deltas: Paddy (high yield varieties)
+- Rayalaseema: Groundnut, Cotton, Sunflower (drought-prone; rain-fed)
+- Coastal AP: Chilli (Guntur), Tobacco, Banana, Sugarcane
+- North AP: Maize, Cashew, Sesame
+- Soils: Mixed red and black; coastal alluvial; laterite hills (Araku)
+
+GENERAL PRACTICE RECOMMENDATIONS:
+- Soil testing before each season at nearest KVK is strongly recommended
+- Use certified seeds from reputable sources; avoid saved seed after 3 generations
+- Keep field records (crop diary): dates sown, fertilizers applied, pest observations
+- Wear PPE (gloves, mask) when spraying pesticides; wash hands after handling chemicals
+- Dispose pesticide containers safely — do not use for water storage
+
+==============================
+FREQUENTLY ASKED QUESTIONS
+==============================
+
+Q: Which crop is best for black soil in Kharif season?
+A: Cotton is the most traditional and suitable crop for deep black soil (Vertisol) in Kharif. Soybean, Jowar (Sorghum), and Maize are also well-suited. Avoid rice in poorly drained black soil.
+
+Q: Which crop requires the least water?
+A: Bajra (Pearl Millet) and Sorghum (Jowar) require the least water among cereals. For pulses, Gram (Chickpea) and Masoor (Lentil) need very little water. Castor is the most drought-tolerant oilseed.
+
+Q: What crop is good for red soil?
+A: Groundnut is best suited for red (laterite) soil. Also suitable: Sorghum, Millets, Pulses (arhar, moong, urad), and Cotton (in deep red soils).
+
+Q: What to grow in Rabi season with irrigation?
+A: Wheat, Chickpea, Mustard, Sunflower, Onion, Potato, Green Peas.
+
+Q: What to grow in summer/Zaid season?
+A: Watermelon, Muskmelon, Cucumber, Moong (Green Gram), Fodder crops.
+
+Q: How do I control tomato fruit borer?
+A: Use pheromone traps; spray Spinosad 45 SC @ 0.3 mL/L or HaNPV; Trichogramma release; Emamectin Benzoate. Always wear protective gear while spraying.
+
+Q: What is MSP and how does it help farmers?
+A: MSP (Minimum Support Price) is the government-guaranteed floor price for 23 crops. If mandi prices fall below MSP, government agencies buy at MSP. It protects farmers from distress selling.
+
+Q: How do I improve soil health?
+A: Get Soil Health Card from KVK. Apply FYM 10-15 t/ha; use biofertilizers; practice crop rotation; avoid burning crop residue; apply lime if acidic.
+
+Q: Which organic methods control pests?
+A: NSKE 5% spray; neem oil 3%; release Trichogramma, Chrysoperla, Beauveria; use pheromone traps; remove infected plants; crop rotation.
+
+Q: What fertilizer for rice in Kharif?
+A: NPK 120:60:60 kg/ha. Apply full P+K as basal, Urea in 3 splits: at transplanting, tillering (30 DAS), panicle initiation (55-60 DAS). Use Zinc Sulphate 25 kg/ha if zinc deficiency.

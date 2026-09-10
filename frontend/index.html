@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en" id="htmlRoot">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>🌾 Smart Farming AI Advisor</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ═══ HEADER ════════════════════════════════════════════════════════════ -->
+  <header class="site-header">
+    <div class="header-inner">
+      <div class="logo">
+        <span class="logo-icon">🌾</span>
+        <div>
+          <h1 data-i18n="site_title">Smart Farming AI</h1>
+          <p class="tagline" data-i18n="site_tagline">Powered by IBM Granite &amp; watsonx.ai</p>
+        </div>
+      </div>
+
+      <!-- Language selector — only 3 supported languages -->
+      <div class="lang-selector">
+        <label for="language" data-i18n="lang_label">🌐 Language:</label>
+        <select id="language">
+          <option value="en">English</option>
+          <option value="hi">हिंदी (Hindi)</option>
+          <option value="te">తెలుగు (Telugu)</option>
+        </select>
+      </div>
+    </div>
+  </header>
+
+  <!-- ═══ NAVIGATION TABS ════════════════════════════════════════════════════ -->
+  <nav class="tab-bar" role="tablist" aria-label="Main features">
+    <button class="tab active" data-tab="chat"    role="tab" aria-selected="true"  data-i18n="tab_chat">💬 Chat</button>
+    <button class="tab"        data-tab="weather" role="tab" aria-selected="false" data-i18n="tab_weather">⛅ Weather</button>
+    <button class="tab"        data-tab="market"  role="tab" aria-selected="false" data-i18n="tab_market">📊 Market Prices</button>
+    <button class="tab"        data-tab="crop"    role="tab" aria-selected="false" data-i18n="tab_crop">🌱 Crop Advice</button>
+    <button class="tab"        data-tab="pest"    role="tab" aria-selected="false" data-i18n="tab_pest">🐛 Pest Control</button>
+  </nav>
+
+  <!-- ═══ MAIN CONTENT ══════════════════════════════════════════════════════ -->
+  <main class="main-content">
+
+    <!-- ── TAB 1: AI Chat ─────────────────────────────────────────────────── -->
+    <section id="tab-chat" class="tab-panel active" role="tabpanel">
+      <div class="card">
+        <h2 data-i18n="chat_title">💬 AI Farming Chatbot</h2>
+        <p class="subtitle" data-i18n="chat_subtitle">Ask any question about crops, soil, weather, fertilizers or farming practices.</p>
+
+        <!-- Suggested quick questions -->
+        <div class="quick-questions">
+          <p class="quick-label" data-i18n="quick_label">Quick questions:</p>
+          <div class="quick-btns">
+            <button class="quick-btn" data-qkey="q_rice"    data-i18n="q_rice">Rice cultivation</button>
+            <button class="quick-btn" data-qkey="q_wheat"   data-i18n="q_wheat">Wheat fertilizer</button>
+            <button class="quick-btn" data-qkey="q_faw"     data-i18n="q_faw">FAW in maize</button>
+            <button class="quick-btn" data-qkey="q_govt"    data-i18n="q_govt">Govt schemes</button>
+            <button class="quick-btn" data-qkey="q_drought" data-i18n="q_drought">Drought management</button>
+          </div>
+        </div>
+
+        <!-- Chat window -->
+        <div class="chat-window" id="chatWindow" aria-live="polite" aria-label="Chat messages">
+          <div class="chat-welcome" id="chatWelcome">
+            <span class="welcome-icon">🌱</span>
+            <p data-i18n="welcome_msg">Hello! I'm your AI farming assistant. Ask me anything about crops, soil, weather, pests, or farming practices in <strong>English, Hindi or Telugu</strong>.</p>
+          </div>
+        </div>
+
+        <!-- Input area -->
+        <div class="chat-input-area">
+          <textarea
+            id="chatInput"
+            data-i18n-placeholder="chat_placeholder"
+            placeholder="Type your farming question here..."
+            rows="2"
+            maxlength="1500"
+            aria-label="Your farming question"
+          ></textarea>
+          <div class="chat-controls">
+            <span class="char-count" id="charCount">0 / 1500</span>
+            <button id="sendBtn" class="btn btn-primary" onclick="sendChat()">
+              <span class="btn-text" data-i18n="btn_send">Send</span>
+              <span class="btn-loader hidden">⏳</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── TAB 2: Weather ─────────────────────────────────────────────────── -->
+    <section id="tab-weather" class="tab-panel" role="tabpanel">
+      <div class="card">
+        <h2 data-i18n="weather_title">⛅ Weather Information</h2>
+        <p class="subtitle" data-i18n="weather_subtitle">Get current weather and 3-day forecast for your location with farming advice.</p>
+
+        <div class="input-row">
+          <input
+            type="text"
+            id="weatherLocation"
+            data-i18n-placeholder="weather_placeholder"
+            placeholder="Enter city / district (e.g. Warangal, Guntur, Pune)"
+            aria-label="Location for weather"
+          />
+          <button class="btn btn-primary" onclick="fetchWeather()" data-i18n="btn_get_weather">Get Weather</button>
+        </div>
+
+        <div id="weatherResult" class="result-area"></div>
+      </div>
+    </section>
+
+    <!-- ── TAB 3: Market Prices ───────────────────────────────────────────── -->
+    <section id="tab-market" class="tab-panel" role="tabpanel">
+      <div class="card">
+        <h2 data-i18n="market_title">📊 Mandi / Market Prices</h2>
+        <p class="subtitle" data-i18n="market_subtitle">MSP reference prices (Govt. of India 2024-25) + IBM Granite AI market advisory — 130+ products.</p>
+
+        <!-- Category filter -->
+        <div class="market-filter-row">
+          <label for="marketCategory" data-i18n="market_cat_label">Category:</label>
+          <select id="marketCategory" onchange="onMarketCategoryChange()">
+            <option value="all"        data-i18n="cat_all">All</option>
+            <option value="vegetables" data-i18n="cat_vegetables">Vegetables</option>
+            <option value="fruits"     data-i18n="cat_fruits">Fruits</option>
+            <option value="cereals"    data-i18n="cat_cereals">Cereals</option>
+            <option value="pulses"     data-i18n="cat_pulses">Pulses</option>
+            <option value="oilseeds"   data-i18n="cat_oilseeds">Oilseeds</option>
+            <option value="spices"     data-i18n="cat_spices">Spices</option>
+            <option value="other"      data-i18n="cat_other">Other Crops</option>
+          </select>
+        </div>
+
+        <!-- Search with autocomplete -->
+        <div class="market-search-row" style="position:relative;">
+          <input
+            type="text"
+            id="marketCrop"
+            data-i18n-placeholder="market_crop_placeholder"
+            placeholder="Search product (e.g. tomato, apple, wheat)"
+            aria-label="Product name"
+            autocomplete="off"
+            oninput="onMarketSearchInput()"
+            onkeydown="onMarketSearchKeydown(event)"
+          />
+          <input
+            type="text"
+            id="marketState"
+            data-i18n-placeholder="market_state_placeholder"
+            placeholder="State (optional, e.g. Andhra Pradesh)"
+            aria-label="State name (optional)"
+          />
+          <input
+            type="text"
+            id="marketName"
+            data-i18n-placeholder="market_name_placeholder"
+            placeholder="Market / City (optional, e.g. Visakhapatnam)"
+            aria-label="Market name (optional)"
+          />
+          <button class="btn btn-primary" onclick="fetchMarket()" data-i18n="btn_get_prices">Get Prices</button>
+          <!-- Autocomplete dropdown -->
+          <ul id="marketSuggestions" class="autocomplete-list" style="display:none;"></ul>
+        </div>
+
+        <!-- Category chips — dynamically rendered by JS -->
+        <div id="marketChipsArea" class="market-chips-area">
+          <!-- Populated by renderMarketChips() -->
+        </div>
+
+        <div id="marketResult" class="result-area"></div>
+      </div>
+    </section>
+
+    <!-- ── TAB 4: Crop Recommendation ────────────────────────────────────── -->
+    <section id="tab-crop" class="tab-panel" role="tabpanel">
+      <div class="card">
+        <h2 data-i18n="crop_title">🌱 Crop Recommendation</h2>
+        <p class="subtitle" data-i18n="crop_subtitle">Get AI-powered crop suggestions based on your soil, season, and location.</p>
+
+        <div class="form-grid">
+          <div class="form-group">
+            <label for="soilType" data-i18n="label_soil">Soil Type</label>
+            <select id="soilType">
+              <option value="" data-i18n="opt_select_soil">-- Select soil type --</option>
+              <option value="red soil"          data-i18n="opt_red_soil">Red Soil</option>
+              <option value="black cotton soil" data-i18n="opt_black_soil">Black Cotton Soil</option>
+              <option value="alluvial soil"     data-i18n="opt_alluvial">Alluvial Soil</option>
+              <option value="sandy loam soil"   data-i18n="opt_sandy">Sandy Loam Soil</option>
+              <option value="loamy soil"        data-i18n="opt_loamy">Loamy Soil</option>
+              <option value="clay soil"         data-i18n="opt_clay">Clay Soil</option>
+              <option value="saline soil"       data-i18n="opt_saline">Saline Soil</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="season" data-i18n="label_season">Season</label>
+            <select id="season">
+              <option value="" data-i18n="opt_select_season">-- Select season --</option>
+              <option value="kharif"     data-i18n="opt_kharif">Kharif (June–October)</option>
+              <option value="rabi"       data-i18n="opt_rabi">Rabi (October–March)</option>
+              <option value="zaid"       data-i18n="opt_zaid">Zaid / Summer (March–June)</option>
+              <option value="year-round" data-i18n="opt_yearround">Year-round</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="cropLocation" data-i18n="label_location">Location / State</label>
+            <input type="text" id="cropLocation" data-i18n-placeholder="crop_location_placeholder" placeholder="e.g. Telangana, Punjab, Maharashtra" />
+          </div>
+
+          <div class="form-group">
+            <label for="waterSource" data-i18n="label_water">Water Source</label>
+            <select id="waterSource">
+              <option value="rainfed"          data-i18n="opt_rainfed">Rainfed</option>
+              <option value="canal irrigation" data-i18n="opt_canal">Canal Irrigation</option>
+              <option value="borewell"         data-i18n="opt_borewell">Borewell</option>
+              <option value="drip irrigation"  data-i18n="opt_drip">Drip Irrigation</option>
+            </select>
+          </div>
+        </div>
+
+        <button class="btn btn-primary btn-full" onclick="fetchCropRecommend()" data-i18n="btn_crop_recommend">
+          Get Crop Recommendation
+        </button>
+
+        <div id="cropResult" class="result-area"></div>
+      </div>
+    </section>
+
+    <!-- ── TAB 5: Pest & Disease Control ─────────────────────────────────── -->
+    <section id="tab-pest" class="tab-panel" role="tabpanel">
+      <div class="card">
+        <h2 data-i18n="pest_title">🐛 Pest &amp; Disease Control</h2>
+        <p class="subtitle" data-i18n="pest_subtitle">Describe the pest or disease problem and get AI-powered management advice.</p>
+
+        <div class="form-grid">
+          <div class="form-group">
+            <label for="pestCrop" data-i18n="label_affected_crop">Affected Crop</label>
+            <input type="text" id="pestCrop" data-i18n-placeholder="pest_crop_placeholder" placeholder="e.g. Rice, Cotton, Tomato" />
+          </div>
+          <div class="form-group">
+            <label for="pestProblem" data-i18n="label_problem">Problem Description</label>
+            <input
+              type="text"
+              id="pestProblem"
+              data-i18n-placeholder="pest_problem_placeholder"
+              placeholder="e.g. Yellow leaves, holes in fruit, white insects under leaves"
+            />
+          </div>
+        </div>
+
+        <button class="btn btn-primary btn-full" onclick="fetchPestControl()" data-i18n="btn_pest_control">
+          Get Pest Control Advice
+        </button>
+
+        <div id="pestResult" class="result-area"></div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ═══ FOOTER ════════════════════════════════════════════════════════════ -->
+  <footer class="site-footer">
+    <p data-i18n="footer_text">
+      🌾 Smart Farming AI Advisor &nbsp;|&nbsp;
+      Powered by <strong>IBM Granite</strong> via watsonx.ai &nbsp;|&nbsp;
+      Agricultural KB: KVK / ICAR guidelines &nbsp;|&nbsp;
+      Market: Govt. of India MSP 2024-25 &nbsp;|&nbsp;
+      <em>Always verify with your local agricultural extension officer.</em>
+    </p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

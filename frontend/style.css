@@ -1,0 +1,782 @@
+/* ═══════════════════════════════════════════════════════════════════════════
+   style.css — Smart Farming AI Advisor
+   Clean, mobile-friendly, farmer-friendly design
+   ═══════════════════════════════════════════════════════════════════════════ */
+
+/* ── CSS Custom Properties (Design Tokens) ─────────────────────────────── */
+:root {
+  --green-dark:   #1b5e20;
+  --green-mid:    #2e7d32;
+  --green-light:  #4caf50;
+  --green-pale:   #e8f5e9;
+  --amber:        #ff8f00;
+  --amber-pale:   #fff8e1;
+  --sky:          #0288d1;
+  --sky-pale:     #e1f5fe;
+  --red:          #c62828;
+  --red-pale:     #ffebee;
+  --text:         #1a1a1a;
+  --text-muted:   #555555;
+  --surface:      #ffffff;
+  --bg:           #f4f6f0;
+  --border:       #d0d7c8;
+  --radius:       10px;
+  --shadow:       0 2px 8px rgba(0,0,0,.10);
+  --font:         'Segoe UI', Arial, sans-serif;
+}
+
+/* ── Reset ──────────────────────────────────────────────────────────────── */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; }
+body {
+  font-family: var(--font);
+  font-size: 15px;
+  line-height: 1.6;
+  background: var(--bg);
+  color: var(--text);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* ── Header ─────────────────────────────────────────────────────────────── */
+.site-header {
+  background: linear-gradient(135deg, var(--green-dark) 0%, var(--green-mid) 100%);
+  color: #fff;
+  padding: 16px 20px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  box-shadow: 0 2px 6px rgba(0,0,0,.25);
+}
+.header-inner {
+  max-width: 960px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+.logo { display: flex; align-items: center; gap: 12px; }
+.logo-icon { font-size: 2.4rem; line-height: 1; }
+.logo h1 { font-size: 1.4rem; font-weight: 700; letter-spacing: -.3px; }
+.tagline { font-size: .78rem; opacity: .85; margin-top: 1px; }
+
+.lang-selector { display: flex; align-items: center; gap: 8px; }
+.lang-selector label { font-size: .85rem; white-space: nowrap; }
+.lang-selector select {
+  padding: 6px 10px;
+  border: 1px solid rgba(255,255,255,.4);
+  border-radius: 6px;
+  background: rgba(255,255,255,.15);
+  color: #fff;
+  font-size: .85rem;
+  cursor: pointer;
+}
+.lang-selector select option { background: var(--green-dark); }
+
+/* ── Tab Navigation ──────────────────────────────────────────────────────── */
+.tab-bar {
+  background: var(--surface);
+  border-bottom: 2px solid var(--border);
+  display: flex;
+  overflow-x: auto;
+  padding: 0 16px;
+  gap: 4px;
+}
+.tab-bar::-webkit-scrollbar { height: 3px; }
+.tab-bar::-webkit-scrollbar-thumb { background: var(--green-light); border-radius: 2px; }
+
+.tab {
+  background: none;
+  border: none;
+  border-bottom: 3px solid transparent;
+  padding: 14px 18px;
+  font-size: .9rem;
+  font-weight: 600;
+  color: var(--text-muted);
+  cursor: pointer;
+  white-space: nowrap;
+  transition: color .2s, border-color .2s;
+  margin-bottom: -2px;
+}
+.tab:hover { color: var(--green-mid); }
+.tab.active {
+  color: var(--green-dark);
+  border-bottom-color: var(--green-light);
+}
+
+/* ── Main Layout ─────────────────────────────────────────────────────────── */
+.main-content {
+  flex: 1;
+  max-width: 960px;
+  width: 100%;
+  margin: 24px auto;
+  padding: 0 16px;
+}
+
+/* ── Tab Panels ──────────────────────────────────────────────────────────── */
+.tab-panel { display: none; }
+.tab-panel.active { display: block; }
+
+/* ── Card ────────────────────────────────────────────────────────────────── */
+.card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 24px;
+  box-shadow: var(--shadow);
+}
+.card h2 { font-size: 1.2rem; color: var(--green-dark); margin-bottom: 6px; }
+.subtitle { font-size: .88rem; color: var(--text-muted); margin-bottom: 18px; }
+
+/* ── Buttons ─────────────────────────────────────────────────────────────── */
+.btn {
+  padding: 10px 22px;
+  border: none;
+  border-radius: 7px;
+  font-size: .9rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background .2s, transform .1s;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+.btn:active { transform: scale(.97); }
+.btn-primary {
+  background: var(--green-mid);
+  color: #fff;
+}
+.btn-primary:hover { background: var(--green-dark); }
+.btn-full { width: 100%; justify-content: center; margin-top: 12px; }
+
+/* ── Quick Question Buttons ──────────────────────────────────────────────── */
+.quick-questions { margin-bottom: 16px; }
+.quick-label { font-size: .82rem; color: var(--text-muted); margin-bottom: 8px; }
+.quick-btns { display: flex; flex-wrap: wrap; gap: 8px; }
+.quick-btn {
+  padding: 6px 14px;
+  background: var(--green-pale);
+  border: 1px solid var(--green-light);
+  border-radius: 20px;
+  font-size: .82rem;
+  color: var(--green-dark);
+  cursor: pointer;
+  transition: background .2s;
+}
+.quick-btn:hover { background: #c8e6c9; }
+
+/* ── Chat Window ─────────────────────────────────────────────────────────── */
+.chat-window {
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 16px;
+  min-height: 260px;
+  max-height: 420px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  margin-bottom: 14px;
+}
+.chat-welcome {
+  text-align: center;
+  padding: 20px;
+  color: var(--text-muted);
+  font-size: .9rem;
+}
+.welcome-icon { font-size: 2rem; display: block; margin-bottom: 8px; }
+
+/* Chat bubbles */
+.msg { display: flex; flex-direction: column; max-width: 82%; }
+.msg.user { align-self: flex-end; align-items: flex-end; }
+.msg.ai   { align-self: flex-start; align-items: flex-start; }
+
+.msg-label {
+  font-size: .72rem;
+  color: var(--text-muted);
+  margin-bottom: 4px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: .5px;
+}
+.msg-bubble {
+  padding: 12px 16px;
+  border-radius: 14px;
+  font-size: .9rem;
+  line-height: 1.6;
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+.msg.user .msg-bubble {
+  background: var(--green-mid);
+  color: #fff;
+  border-bottom-right-radius: 4px;
+}
+.msg.ai .msg-bubble {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-bottom-left-radius: 4px;
+}
+.msg.error .msg-bubble { background: var(--red-pale); border-color: var(--red); color: var(--red); }
+
+/* Chat Input */
+.chat-input-area { display: flex; flex-direction: column; gap: 8px; }
+.chat-input-area textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  font-size: .9rem;
+  font-family: var(--font);
+  resize: vertical;
+  transition: border-color .2s;
+}
+.chat-input-area textarea:focus { outline: none; border-color: var(--green-light); }
+.chat-controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.char-count { font-size: .78rem; color: var(--text-muted); }
+
+/* ── Input Row (weather / market) ────────────────────────────────────────── */
+.input-row {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-bottom: 14px;
+}
+.input-row input {
+  flex: 1;
+  min-width: 180px;
+  padding: 10px 14px;
+  border: 1px solid var(--border);
+  border-radius: 7px;
+  font-size: .9rem;
+  font-family: var(--font);
+}
+.input-row input:focus { outline: none; border-color: var(--green-light); }
+
+/* ── Crop Chips ──────────────────────────────────────────────────────────── */
+.crop-chips { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 16px; align-items: center; }
+.chip-label { font-size: .82rem; color: var(--text-muted); }
+.crop-chip {
+  padding: 5px 12px;
+  background: var(--amber-pale);
+  border: 1px solid #ffcc02;
+  border-radius: 16px;
+  font-size: .82rem;
+  color: #5d4037;
+  cursor: pointer;
+  transition: background .2s;
+}
+.crop-chip:hover { background: #ffe082; }
+
+/* ── Form Grid ───────────────────────────────────────────────────────────── */
+.form-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 14px;
+  margin-bottom: 4px;
+}
+.form-group label {
+  display: block;
+  font-size: .82rem;
+  font-weight: 600;
+  color: var(--text-muted);
+  margin-bottom: 5px;
+}
+.form-group input,
+.form-group select {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid var(--border);
+  border-radius: 7px;
+  font-size: .9rem;
+  font-family: var(--font);
+  background: var(--surface);
+}
+.form-group input:focus,
+.form-group select:focus { outline: none; border-color: var(--green-light); }
+
+/* ── Result Area ─────────────────────────────────────────────────────────── */
+.result-area { margin-top: 18px; }
+
+/* Loading state */
+.loading {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 16px;
+  background: var(--sky-pale);
+  border-radius: 8px;
+  font-size: .9rem;
+  color: var(--sky);
+}
+.spinner {
+  width: 20px; height: 20px;
+  border: 3px solid var(--sky);
+  border-top-color: transparent;
+  border-radius: 50%;
+  animation: spin .7s linear infinite;
+}
+@keyframes spin { to { transform: rotate(360deg); } }
+
+/* Error box */
+.error-box {
+  background: var(--red-pale);
+  border: 1px solid var(--red);
+  border-radius: 8px;
+  padding: 14px 18px;
+  color: var(--red);
+  font-size: .9rem;
+}
+
+/* ── Notice box (used for weather/market unavailability disclaimers) ────── */
+.notice-box {
+  background: var(--amber-pale);
+  border: 1px solid #ffe082;
+  border-radius: 8px;
+  padding: 10px 14px;
+  font-size: .85rem;
+  color: #6d4c00;
+  margin: 10px 0;
+}
+
+/* ── Weather seasonal tips list ─────────────────────────────────────────── */
+.weather-tips {
+  background: var(--green-pale);
+  border-radius: 8px;
+  padding: 10px 14px;
+  margin-top: 10px;
+  font-size: .88rem;
+}
+.weather-tips ul { padding-left: 20px; margin-top: 6px; }
+.weather-tips li { margin-bottom: 4px; }
+
+/* ── AI response text formatting ────────────────────────────────────────── */
+.response-text p  { margin-bottom: 8px; }
+.response-text ul { padding-left: 20px; margin-bottom: 8px; }
+.response-text li { margin-bottom: 4px; }
+.response-text strong { color: var(--green-dark); }
+
+
+
+/* ── Weather Card ────────────────────────────────────────────────────────── */
+.weather-card { border: 1px solid var(--border); border-radius: 10px; overflow: hidden; }
+.weather-current {
+  background: linear-gradient(135deg, #1565c0, #0288d1);
+  color: #fff;
+  padding: 20px 24px;
+}
+.weather-location { font-size: 1rem; font-weight: 700; margin-bottom: 6px; }
+.weather-main { display: flex; align-items: baseline; gap: 10px; margin-bottom: 6px; }
+.weather-temp { font-size: 3rem; font-weight: 800; line-height: 1; }
+.weather-condition { font-size: 1rem; opacity: .9; }
+.weather-meta { font-size: .82rem; opacity: .85; display: flex; gap: 16px; }
+.weather-advice {
+  background: var(--amber-pale);
+  border-top: 1px solid #ffe082;
+  padding: 12px 20px;
+  font-size: .88rem;
+  color: #4e342e;
+}
+.weather-forecast {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1px;
+  background: var(--border);
+}
+.forecast-day {
+  background: var(--surface);
+  padding: 12px;
+  text-align: center;
+  font-size: .82rem;
+}
+.forecast-day .date { color: var(--text-muted); margin-bottom: 4px; }
+.forecast-day .temps { font-weight: 700; color: var(--green-dark); }
+
+/* ── Market Card ─────────────────────────────────────────────────────────── */
+.market-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  overflow: hidden;
+}
+.market-header {
+  background: linear-gradient(135deg, #1b5e20, #388e3c);
+  color: #fff;
+  padding: 16px 20px;
+}
+.market-header h3 { font-size: 1.1rem; margin-bottom: 4px; }
+.market-price-big { font-size: 2.2rem; font-weight: 800; line-height: 1; }
+.market-price-unit { font-size: .82rem; opacity: .8; margin-left: 4px; }
+.market-body { padding: 16px 20px; }
+.market-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 7px 0;
+  border-bottom: 1px solid var(--border);
+  font-size: .88rem;
+}
+.market-row:last-child { border-bottom: none; }
+.market-row .label { color: var(--text-muted); }
+.market-row .value { font-weight: 600; }
+.market-advice {
+  background: var(--green-pale);
+  border-top: 1px solid var(--border);
+  padding: 12px 20px;
+  font-size: .85rem;
+  color: var(--green-dark);
+}
+.market-note {
+  background: var(--amber-pale);
+  border-top: 1px solid #ffe082;
+  padding: 10px 20px;
+  font-size: .78rem;
+  color: #5d4037;
+}
+
+/* ── AI Response Box ─────────────────────────────────────────────────────── */
+.ai-response {
+  background: var(--green-pale);
+  border: 1px solid var(--green-light);
+  border-radius: 10px;
+  padding: 18px 20px;
+}
+.ai-response h4 { font-size: .88rem; color: var(--green-dark); margin-bottom: 8px; }
+.ai-response .response-text {
+  font-size: .92rem;
+  line-height: 1.7;
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+
+/* ── Utility ─────────────────────────────────────────────────────────────── */
+.hidden { display: none !important; }
+.mt-12 { margin-top: 12px; }
+
+/* ── Footer ──────────────────────────────────────────────────────────────── */
+.site-footer {
+  background: var(--green-dark);
+  color: rgba(255,255,255,.75);
+  text-align: center;
+  padding: 14px 20px;
+  font-size: .78rem;
+  line-height: 1.5;
+  margin-top: auto;
+}
+
+/* ── Responsive ──────────────────────────────────────────────────────────── */
+@media (max-width: 600px) {
+  .logo h1 { font-size: 1.1rem; }
+  .card { padding: 16px; }
+  .tab { padding: 12px 12px; font-size: .82rem; }
+  .weather-temp { font-size: 2.2rem; }
+  .market-price-big { font-size: 1.8rem; }
+  .form-grid { grid-template-columns: 1fr; }
+}
+
+/* ═══════════════════════════════════════════════════════════════════════════
+   Market Prices — extended UI styles
+   ═══════════════════════════════════════════════════════════════════════════ */
+
+/* Category filter row */
+.market-filter-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 12px;
+  flex-wrap: wrap;
+}
+.market-filter-row label {
+  font-weight: 600;
+  color: var(--text);
+  white-space: nowrap;
+}
+.market-filter-row select {
+  padding: 8px 12px;
+  border: 1.5px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--surface);
+  font-size: .95rem;
+  cursor: pointer;
+}
+
+/* Search row with autocomplete */
+.market-search-row {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-bottom: 14px;
+}
+.market-search-row input {
+  flex: 1;
+  min-width: 160px;
+  padding: 10px 14px;
+  border: 1.5px solid var(--border);
+  border-radius: var(--radius);
+  font-size: .95rem;
+}
+.market-search-row input:focus {
+  outline: none;
+  border-color: var(--green-light);
+}
+
+/* Autocomplete dropdown */
+.autocomplete-list {
+  position: absolute;
+  top: calc(100% + 2px);
+  left: 0;
+  width: 100%;
+  max-height: 220px;
+  overflow-y: auto;
+  background: var(--surface);
+  border: 1.5px solid var(--border);
+  border-radius: var(--radius);
+  list-style: none;
+  z-index: 200;
+  box-shadow: var(--shadow);
+}
+.autocomplete-list li {
+  padding: 10px 14px;
+  cursor: pointer;
+  font-size: .93rem;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.autocomplete-list li:hover,
+.autocomplete-list li.selected {
+  background: var(--green-pale);
+}
+.autocomplete-list li .ac-cat {
+  font-size: .78rem;
+  color: var(--text-muted);
+  background: var(--bg);
+  padding: 1px 6px;
+  border-radius: 4px;
+}
+
+/* Dynamic product chips area */
+.market-chips-area {
+  margin-bottom: 14px;
+}
+.market-chips-area .chips-section {
+  margin-bottom: 10px;
+}
+.market-chips-area .chips-section-label {
+  font-size: .80rem;
+  font-weight: 700;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: .05em;
+  margin-bottom: 6px;
+  display: block;
+}
+.market-chips-area .chip-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+.market-chip {
+  padding: 5px 12px;
+  border: 1.5px solid var(--green-light);
+  border-radius: 20px;
+  background: var(--green-pale);
+  color: var(--green-dark);
+  font-size: .82rem;
+  cursor: pointer;
+  transition: background .15s;
+  white-space: nowrap;
+}
+.market-chip:hover {
+  background: var(--green-light);
+  color: #fff;
+}
+
+/* Live price result card */
+.market-live-card {
+  background: var(--green-pale);
+  border: 1.5px solid var(--green-light);
+  border-radius: var(--radius);
+  padding: 18px 20px;
+}
+.market-live-card .mlc-header {
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-bottom: 12px;
+}
+.market-live-card .mlc-name {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--green-dark);
+}
+.market-live-card .mlc-cat {
+  font-size: .80rem;
+  background: var(--green-light);
+  color: #fff;
+  padding: 2px 8px;
+  border-radius: 10px;
+  text-transform: capitalize;
+}
+.market-live-card .mlc-rows {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 8px;
+  margin-bottom: 12px;
+}
+.market-live-card .mlc-row {
+  background: var(--surface);
+  border-radius: 8px;
+  padding: 10px 14px;
+}
+.market-live-card .mlc-row .lbl {
+  font-size: .78rem;
+  color: var(--text-muted);
+  margin-bottom: 2px;
+}
+.market-live-card .mlc-row .val {
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: var(--text);
+}
+.market-live-card .mlc-modal {
+  font-size: 2rem;
+  font-weight: 800;
+  color: var(--green-dark);
+}
+.market-live-card .mlc-markets {
+  font-size: .85rem;
+  color: var(--text-muted);
+  margin-bottom: 10px;
+}
+.market-live-card .mlc-note {
+  font-size: .78rem;
+  color: var(--text-muted);
+  border-top: 1px solid var(--border);
+  padding-top: 8px;
+  margin-top: 6px;
+}
+.market-live-card .mlc-source a {
+  color: var(--sky);
+  text-decoration: none;
+  font-size: .82rem;
+}
+
+/* No live data card */
+.market-nodata-card {
+  background: var(--amber-pale);
+  border: 1.5px solid var(--amber);
+  border-radius: var(--radius);
+  padding: 18px 20px;
+}
+.market-nodata-card h4 {
+  color: var(--amber);
+  margin-bottom: 8px;
+}
+.market-nodata-card p { margin-bottom: 6px; font-size: .92rem; }
+.market-nodata-card .nld-product {
+  font-weight: 700;
+  color: var(--text);
+}
+.market-nodata-card .nld-setup {
+  font-size: .80rem;
+  color: var(--text-muted);
+  margin-top: 10px;
+  padding: 8px 12px;
+  background: rgba(255,255,255,.7);
+  border-radius: 6px;
+}
+.market-nodata-card .nld-ref a {
+  color: var(--sky);
+  font-size: .83rem;
+}
+
+/* ── Weather stored data block ──────────────────────────────────────────── */
+.weather-stored-data {
+  background: var(--sky-pale);
+  border: 1px solid #b3d8f0;
+  border-radius: var(--radius);
+  padding: 14px 16px;
+  margin: 10px 0;
+}
+.stored-label {
+  font-size: .8rem;
+  color: var(--sky);
+  font-weight: 600;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  letter-spacing: .04em;
+}
+.weather-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 10px;
+  margin-bottom: 8px;
+}
+.wg-item {
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  border-radius: 6px;
+  padding: 8px 10px;
+  border: 1px solid var(--border);
+}
+.wg-label { font-size: .72rem; color: var(--text-muted); margin-bottom: 2px; }
+.wg-val   { font-size: 1rem;   font-weight: 700; color: var(--text); }
+.wg-crops, .wg-soil {
+  font-size: .82rem;
+  color: var(--text-muted);
+  margin-top: 4px;
+}
+
+/* ── Mandi price table ───────────────────────────────────────────────────── */
+.mandi-table-wrap {
+  margin: 14px 0 6px;
+  overflow-x: auto;
+}
+.mandi-label {
+  font-size: .78rem;
+  color: var(--amber);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: .04em;
+  margin-bottom: 8px;
+}
+.mandi-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: .88rem;
+}
+.mandi-table th {
+  background: var(--green-pale);
+  color: var(--green-dark);
+  font-weight: 700;
+  padding: 7px 10px;
+  text-align: left;
+  border-bottom: 2px solid var(--green-light);
+  white-space: nowrap;
+}
+.mandi-table td {
+  padding: 6px 10px;
+  border-bottom: 1px solid var(--border);
+  color: var(--text);
+}
+.mandi-table tr:last-child td { border-bottom: none; }
+.mandi-table tr:nth-child(even) td { background: var(--green-pale); }
+.mandi-note, .mandi-empty {
+  font-size: .8rem;
+  color: var(--text-muted);
+  margin-top: 8px;
+  padding: 6px 10px;
+  background: var(--amber-pale);
+  border-radius: 6px;
+  border-left: 3px solid var(--amber);
+}
