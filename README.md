@@ -14,7 +14,7 @@
 
 ## 📌 Overview
 
-**Smart Farming AI Advisor** is a full-stack web application that gives Indian farmers intelligent, context-aware agricultural guidance in **English, Hindi (हिंदी), and Telugu (తెలుగు)**.
+**Smart Farming AI Advisor** is a full-stack web application that gives Indian farmers intelligent, context-aware agricultural guidance in **English, Hindi (हिंदी), and Telugu (తెలుగు)**. It features a premium dark-mode glassmorphism design for an exceptional user experience.
 
 The system uses a **Retrieval-Augmented Generation (RAG)** pipeline backed by an 870-line ICAR/KVK agricultural knowledge base combined with the **IBM Granite LLM** on **watsonx.ai**. Every AI response is grounded in retrieved knowledge — Granite cannot invent live weather data, live market prices, or unsupported pesticide doses.
 
@@ -99,8 +99,9 @@ AI-Agent-for-Smart-Farming-Advice/
 │       └── __init__.py
 │
 ├── frontend/
-│   ├── index.html              # Single-page app — 5 tabs, language selector
-│   ├── style.css               # Responsive CSS design system — mobile & desktop
+│   ├── index.html              # Landing page with cinematic hero background
+│   ├── app.html                # Main single-page app — 5 tabs, language selector
+│   ├── style.css               # Responsive dark-mode glassmorphism CSS design system
 │   └── script.js               # Tab logic, API calls, mandi table, weather grid,
 │                               # autocomplete, en/hi/te i18n
 │
@@ -177,7 +178,7 @@ Open `frontend/index.html` in any browser, or serve it:
 ```bash
 cd ../frontend
 python -m http.server 8080
-# Visit http://localhost:8080
+# Visit http://localhost:8080/index.html
 ```
 
 ---

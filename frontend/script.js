@@ -142,12 +142,12 @@ const T = {
 
     // Pest tab
     pest_title: "🐛 Pest & Disease Control",
-    pest_subtitle: "Describe the pest or disease problem and get AI-powered management advice.",
+    pest_subtitle: "Describe the pest or disease problem and get IBM Granite AI-powered management advice.",
     label_affected_crop: "Affected Crop",
     label_problem: "Problem Description",
     pest_crop_placeholder: "e.g. Rice, Cotton, Tomato",
     pest_problem_placeholder: "e.g. Yellow leaves, holes in fruit, white insects under leaves",
-    btn_pest_control: "Get Pest Control Advice",
+    btn_pest_control: "Get IBM Granite Pest Advice",
 
     // Footer
     footer_text: "🌾 Smart Farming AI Advisor | Powered by IBM Granite via watsonx.ai | Data source: KVK / ICAR guidelines | Always verify with your local agricultural extension officer.",
@@ -157,7 +157,7 @@ const T = {
     loading_weather: "Fetching weather data...",
     loading_market: "Fetching market prices...",
     loading_crop: "Getting crop recommendation from IBM Granite...",
-    loading_pest: "Analyzing the pest/disease problem...",
+    loading_pest: "IBM Granite is analyzing the pest/disease problem...",
     thinking_label: "Thinking...",
     ai_label: "🤖 AI Advisor",
     you_label: "👤 You",
@@ -168,8 +168,8 @@ const T = {
     err_no_crop: "Please enter a crop name.",
     err_no_fields: "Please fill in all required fields.",
     err_server: "Could not connect to the server. Make sure the backend is running.",
-    crop_result_title: "🌱 AI Crop Recommendation",
-    pest_result_title: "🐛 Pest & Disease Management Advice",
+    crop_result_title: "🌱 IBM Granite Crop Recommendation",
+    pest_result_title: "🐛 IBM Granite Pest Management Advice",
   },
 
   // ── Hindi ──────────────────────────────────────────────────────────────────
